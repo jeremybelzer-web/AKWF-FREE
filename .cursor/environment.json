@@ -1,0 +1,5 @@
+{
+  "name": "AKWF-FREE",
+  "user": "ubuntu",
+  "install": "bash .cursor/install.sh"
+}
