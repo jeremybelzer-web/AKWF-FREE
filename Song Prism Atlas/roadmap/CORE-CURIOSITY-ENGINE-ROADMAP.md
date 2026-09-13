@@ -27,9 +27,9 @@ Everything else (transport, tracks, clips/shelf, magnify/device lane, minimal sy
 
 | Document | Purpose | Path |
 |----------|---------|------|
-| **App building roadmap** | What we build | `docs/curiositor/roadmap/CORE-CURIOSITY-ENGINE-ROADMAP.md` |
-| **Manuals pattern index** | Patterns adapted/rejected from Ableton/FL/etc. manuals | `docs/curiositor/roadmap/MANUALS-PATTERN-INDEX.md` |
-| **Handoff** | Status + next agent instructions | `docs/curiositor/HANDOFF-CLAUDE-FABLE.md` |
+| **App building roadmap** | What we build | `Song Prism Atlas/roadmap/CORE-CURIOSITY-ENGINE-ROADMAP.md` |
+| **Manuals pattern index** | Patterns adapted/rejected from Ableton/FL/etc. manuals | `Song Prism Atlas/roadmap/MANUALS-PATTERN-INDEX.md` |
+| **Handoff** | Status + next agent instructions | `Song Prism Atlas/HANDOFF-CLAUDE-FABLE.md` |
 
 Manuals under `manuals/` (when populated) are **reference only**. Never copy copyrighted manual prose into these docsâ€”summarize adapted patterns in our own words.
 
@@ -212,4 +212,5 @@ Shared schema (portable): curiosity taxonomy, lane IDs, node graph, inspirationâ
 ## 12. Links
 
 - Manuals pattern index: [`MANUALS-PATTERN-INDEX.md`](./MANUALS-PATTERN-INDEX.md)  
-- Handoff: [`../HANDOFF-CLAUDE-FABLE.md`](../HANDOFF-CLAUDE-FABLE.md)
+- Handoff: [`../HANDOFF-CLAUDE-FABLE.md`](../HANDOFF-CLAUDE-FABLE.md)  
+- Home folder: `Song Prism Atlas/`

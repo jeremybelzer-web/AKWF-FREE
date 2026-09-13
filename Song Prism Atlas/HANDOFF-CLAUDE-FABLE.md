@@ -17,10 +17,12 @@ Jeremy asked to:
 3. Commit / push
 
 **Done in this PR/branch:**
-- [`docs/curiositor/roadmap/CORE-CURIOSITY-ENGINE-ROADMAP.md`](./roadmap/CORE-CURIOSITY-ENGINE-ROADMAP.md) — **app building** north star
-- [`docs/curiositor/roadmap/MANUALS-PATTERN-INDEX.md`](./roadmap/MANUALS-PATTERN-INDEX.md) — manuals **pattern index only**
-- [`docs/curiositor/HANDOFF-CLAUDE-FABLE.md`](./HANDOFF-CLAUDE-FABLE.md) — this file
-- [`manuals/README.md`](../../manuals/README.md) — pointer so manuals/ is not mistaken for the product plan
+- [`Song Prism Atlas/roadmap/CORE-CURIOSITY-ENGINE-ROADMAP.md`](./roadmap/CORE-CURIOSITY-ENGINE-ROADMAP.md) — **app building** north star
+- [`Song Prism Atlas/roadmap/MANUALS-PATTERN-INDEX.md`](./roadmap/MANUALS-PATTERN-INDEX.md) — manuals **pattern index only**
+- [`Song Prism Atlas/HANDOFF-CLAUDE-FABLE.md`](./HANDOFF-CLAUDE-FABLE.md) — this file
+- [`manuals/README.md`](../manuals/README.md) — pointer so manuals/ is not mistaken for the product plan
+
+**Location:** all Curiositor planning docs live under **`Song Prism Atlas/`** (not `docs/curiositor/`).
 
 **Not done (out of scope for this handoff slice):**
 - No Curiositor / `pmw` application code changes (that app is **not** in this workspace)
@@ -69,7 +71,7 @@ Exceed Song Sketch 2: not arrangement-only; any curiosity.
 
 ## What Claude Fable should do next
 
-1. **Confirm correct repo** for Curiositor/`pmw`. If work should live there, **copy these three docs** into that repo’s `docs/` (keep the app vs manuals split) and continue there. Do not invent AKWF waveform features for this product.
+1. **Confirm correct repo** for Curiositor/`pmw`. If work should live there, **copy the `Song Prism Atlas/` folder** (keep the app vs manuals split) and continue there. Do not invent AKWF waveform features for this product.
 2. Open `CORE-CURIOSITY-ENGINE-ROADMAP.md` and lock Jeremy’s **day-7 gate checkboxes**.
 3. Pick **first vertical slice** (recommend: inspiration import + A/B key-BPM + one curiosity redraw on Record).
 4. Implement in the real app repo **or** scaffold M4L device skeleton sharing the same curiosity schema.
