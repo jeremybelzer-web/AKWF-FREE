@@ -87,3 +87,39 @@ Exceed Song Sketch 2: not arrangement-only; any curiosity.
 
 ## Owner
 Jeremy Belzer (`jeremybelzer@gmail.com`) — product decisions, day-7 pivot call, taste bar.
+
+
+---
+
+## Port status (updated 2026-09-14)
+
+| Place | Status |
+|-------|--------|
+| `jeremybelzer-web/AKWF-FREE` PR #2 / branch `cursor/curiositor-roadmap-handoff-da10` | **Source of truth today** — docs live under `Song Prism Atlas/` |
+| `jeremybelzer-web/pmw` GitHub | **Not yet** — Cloud Agents attached only to AKWF-FREE get **403** on push to `pmw` |
+| Local port attempt | Commit prepared; push blocked for `cursor[bot]` without `pmw` repo attachment |
+
+### What Claude / next agent must do
+
+Open a **Cloud Agent on `jeremybelzer-web/pmw`** (not AKWF-FREE) and run:
+
+1. Branch: `cursor/song-prism-atlas-port-b25c` from `main`
+2. Copy these three files from AKWF-FREE branch `cursor/curiositor-roadmap-handoff-da10`:
+   - `Song Prism Atlas/HANDOFF-CLAUDE-FABLE.md`
+   - `Song Prism Atlas/roadmap/CORE-CURIOSITY-ENGINE-ROADMAP.md`
+   - `Song Prism Atlas/roadmap/MANUALS-PATTERN-INDEX.md`
+3. Optional: add a short `manuals/README.md` pointer like AKWF-FREE if that folder exists / is useful
+4. Commit + push + open draft PR into `pmw` `main`
+5. Then continue product work from `CORE-CURIOSITY-ENGINE-ROADMAP.md` in **pmw**
+
+### Fetch one-liner (from a pmw checkout)
+
+```bash
+git fetch https://github.com/jeremybelzer-web/AKWF-FREE.git cursor/curiositor-roadmap-handoff-da10
+git checkout FETCH_HEAD -- "Song Prism Atlas"
+```
+
+Artifacts also available from the port agent run:
+- `Song-Prism-Atlas-port.zip`
+- `song-prism-atlas-pmw.patch`
+- Google Drive folder **Song Prism Atlas (port to pmw)**
