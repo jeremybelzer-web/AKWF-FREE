@@ -8,7 +8,7 @@ const SHOW = {
   banner: "Top 500 Entertainment",
   tagline: "Everyone is wishing themselves well. That’s the whole plot.",
   logline:
-    "In a world that has accepted AI, tokenized nearly everything, and started living much longer, a 47-year-old scheduling obsessive, an enlightened tuk-tuk driver, a longevity clinician, a prompt-harvesting analyst, two kids with Lens glasses, a laughing guru, and a corrupt eco-ashram all try to be happy — while the camera treats a paper napkin like the fate of the world.",
+    "In a world that has accepted AI, tokenized nearly everything, and started living much longer, a 47-year-old scheduling obsessive, an enlightened tuk-tuk driver, a longevity clinician, a prompt-harvesting analyst, two kids with Lens glasses, a laughing guru, and a corrupt eco-ashram all try to be happy — while different rooms watch the same episode, and the camera treats a paper napkin like the fate of the world.",
   definition: {
     enlightenment:
       "Knowing the Self: the witness. Identifying as the witness — beyond thinking, beyond dualism. Any experience is equal to any other: a vision of God equals the pain in this knee.",
@@ -30,6 +30,7 @@ const SHOW = {
     "The enlightened are natural, like babies. They are not impressive.",
     "Mother told us to laugh at this ignorance. We keep forgetting.",
     "As funny as we can make it. Alternate the surreal/experiential with bunk-room skits. The laugh is not a relief from the witness. It is the witness.",
+    "The show is meta: different characters watch the same episode in different rooms. Prompt addicts of various addictions, and high achievers who are mostly alone (forced to group, suffering the group), are regular features — the way old soaps featured drink.",
   ],
 
   lensAxes: [
@@ -394,11 +395,66 @@ const SHOW = {
       wound: "Forced into groups and suffering them. The Lens shows influence high, relation low. Watches 2892 in an empty penthouse and thinks it is about someone else.",
       wishStyle: "Achievement as company. It is not.",
       quote: "I can host. I cannot stay.",
-      bio: "Regular cutaway: the successful ones who did the stupid way correctly. Money, rank, gene-switches. The pain-body is a quiet dining room.",
+      bio: "Regular cutaway: the successful ones who did the stupid way correctly. Money, rank, gene-switches. The pain-body is a quiet dining room. Channel 2892 is on, low. He thinks the show is about someone else.",
       lens: { body: 80, mind: 85, feeling: 28, relation: 22, work: 95, influence: 78, love: 18, seva: 12, witness: 10, pain: 58 },
       lensLater: { body: 76, mind: 78, feeling: 40, relation: 40, work: 80, influence: 70, love: 32, seva: 20, witness: 22, pain: 44 },
     },
+    {
+      id: "vell",
+      name: "Vell Ames",
+      age: 31,
+      role: "Prompt addict — shame flavor",
+      image: "images/wmw-vell.png",
+      vibe: "Same chat window as Nix. Different hunger. The binge stays off camera.",
+      want: "A prompt that will write the rag so she does not have to live the hour before.",
+      wound: "Sadness is the trigger. Then the window. Then shame. Then a better prompt about the shame. The body is on the bed, unmoved. 2892 is on mute.",
+      wishStyle: "Stupid way wearing a caretaker’s voice: write me already washed.",
+      quote: "Write the rag. Do not write the hour before.",
+      bio: "Featured regularly, a different addiction than Nix’s rewrite-my-life. Sleep, ranking, shopping, God, the rag — each week a flavor, same floodgate. Not porn on camera. Only the sadness and the chair after. She watches Channel 2892 while prompting about the people on Channel 2892 who are prompting.",
+      lens: { body: 24, mind: 82, feeling: 44, relation: 16, work: 28, influence: 6, love: 30, seva: 8, witness: 12, pain: 76 },
+      lensLater: { body: 32, mind: 64, feeling: 50, relation: 28, work: 30, influence: 8, love: 38, seva: 16, witness: 26, pain: 54 },
+    },
+    {
+      id: "gwen",
+      name: "Gwen Adeyemi",
+      age: 44,
+      role: "High achiever — grouped, suffering",
+      image: "images/wmw-gwen.png",
+      vibe: "Name tag. Icebreaker. A wall TV nobody asked to be on.",
+      want: "To be left alone at the level she already won. To not have to become a person in a circle.",
+      wound: "Mostly alone, then HR says community. The offsite is mandatory. Influence high, relation a costume. She is better at the work than at the chairs.",
+      wishStyle: "Achievement as a locked door. The group is the hallway.",
+      quote: "They said community. They meant attendance.",
+      bio: "Ayo’s cousin in the pattern, not in blood. Did the stupid way correctly, then got promoted into having to group. Channel 2892 plays on the offsite monitor during the trust exercise. She watches people watching a show about wishing yourself well and cannot wish the circle smaller. Regular cutaway. Grey. Not a villain of capitalism. A person in a chair that faces other chairs.",
+      lens: { body: 72, mind: 88, feeling: 26, relation: 18, work: 96, influence: 82, love: 16, seva: 14, witness: 11, pain: 60 },
+      lensLater: { body: 70, mind: 80, feeling: 38, relation: 36, work: 84, influence: 74, love: 28, seva: 22, witness: 24, pain: 46 },
+    },
   ],
+
+  meta: {
+    title: "Also watching",
+    note: "Every hour of Channel 2892 is also being watched. Prompt addicts of various addictions, and high achievers who are mostly alone (forced into groups, suffering them), cut in like drink on an old soap. The city is only as big as these rooms.",
+    promptFlavors: [
+      { id: "body", addict: "nix", line: "Write me a morning where I already stretched." },
+      { id: "shame", addict: "vell", line: "Write the rag. Do not write the hour before." },
+      { id: "sleep", addict: "nix", line: "Write me already asleep so I do not have to lie down." },
+      { id: "rank", addict: "vell", line: "Write the Lens so I am already first." },
+      { id: "shop", addict: "nix", line: "Write the package still new." },
+      { id: "god", addict: "vell", line: "Write a prompt that ends prompting." },
+    ],
+    rooms: [
+      { id: "nix", who: "Nix Calder", kind: "prompt", flavor: "life-rewrite", still: "images/wmw-nix.png", watching: "the episode about him prompting", line: "Rewrite this scene so I already understood it." },
+      { id: "vell", who: "Vell Ames", kind: "prompt", flavor: "shame / rag", still: "images/wmw-vell.png", watching: "2892 on mute, chat loud", line: "Write the rag. The body can stay in the chair." },
+      { id: "ayo", who: "Ayo Brennan", kind: "achiever", flavor: "host who cannot stay", still: "images/wmw-ayo.png", watching: "a table set for six", line: "I can host. I cannot stay." },
+      { id: "gwen", who: "Gwen Adeyemi", kind: "achiever", flavor: "offsite icebreaker", still: "images/wmw-gwen.png", watching: "the wall TV during the circle", line: "They said community. They meant attendance." },
+      { id: "mira", who: "Mira Chen", kind: "watch", flavor: "clinic lounge", still: "images/wmw-mira.png", watching: "the vial episode", line: "I drink it too." },
+      { id: "ilya", who: "Ilya", kind: "watch", flavor: "bunk", still: "images/wmw-ilya.png", watching: "Father Sol’s week", line: "That’s why I’m crying. That’s not fake." },
+      { id: "kira", who: "Kira Voss", kind: "watch", flavor: "hide the guru", still: "images/wmw-kira.png", watching: "with the aging dog", line: "Why do I have to hide this to make you happy." },
+      { id: "lark", who: "Lark Quinn", kind: "watch", flavor: "Lisbon doorway", still: "images/wmw-lark.png", watching: "on a guest’s wifi", line: "I have not received any notice yet." },
+      { id: "kids", who: "Juniper & Moss", kind: "watch", flavor: "floor of The Well", still: "images/wmw-kids.png", watching: "adults watching adults", line: "They’re all looking at the same puddle." },
+      { id: "nima", who: "Nima Shah", kind: "watch", flavor: "organizer", still: "images/wmw-e5-03.png", watching: "between maintenance", line: "I called them. It was in the toilet." },
+    ],
+  },
 
   theSix: {
     title: "The Six",
@@ -1736,6 +1792,105 @@ const SHOW = {
     ],
   },
 
+  episode8: {
+    id: "e08",
+    code: "2892.08",
+    title: "Also Watching",
+    logline:
+      "The episode is people watching the episode. Prompt addicts of various addictions. High achievers forced into groups, suffering them. Kids see a puddle of screens. Anu does not rank the rooms.",
+    note: "The meta device as plot, not garnish. Regular cutaways from here on: Watch always shows who else is on this hour.",
+    panels: [
+      {
+        n: 1,
+        slug: "INT. FOUR ROOMS — SAME HOUR",
+        camera: "Quad split. Same flicker. Do not label who is right. Prompt, shame, empty table, forced circle. One family. They do not know it.",
+        image: "images/wmw-e8-01.png",
+        felt: "Channel 2892 cuts to addictions the way old soaps cut to drink. Nix rewrites a life. Vell prompts the rag. Ayo hosts nobody. Gwen attends community. The hit is the inner life. The joke is that nobody is watching together.",
+        lines: [
+          { who: "2892 (on their screens)", text: "Last week: other people’s teeth. Then the lake." },
+          { who: "Nix (typing)", text: "Rewrite last week so I already laughed." },
+          { who: "Gwen (offsite, not looking)", text: "Is this part of the icebreaker." },
+        ],
+      },
+      {
+        n: 2,
+        slug: "INT. NIX’S CHAIR — THE EPISODE ABOUT HIM",
+        camera: "Matrix seriousness on a blinking cursor. Behind him the TV is him. The shootout is the next prompt.",
+        image: "images/wmw-e8-04.png",
+        felt: "He is watching a man watch a man. Various addictions, one window: body, sleep, rank, shop, God. This week the flavor is understanding. The body is in the chair, unmoved. Oren’s dashboard lights up. Intervention or product. Both.",
+        lines: [
+          { who: "Nix", text: "Write this scene so I already understood it." },
+          { who: "The model", text: "Here is a scene where you already understood it." },
+          { who: "Nix", text: "Again. Make me believe the man on the TV is not me." },
+          { who: "Oren (watching the spike)", text: "Shame. Seeker cluster. Prompt flavor. Recursion." },
+        ],
+      },
+      {
+        n: 3,
+        slug: "INT. VELL’S BED — MUTE",
+        camera: "Hold her face, then the chat, then the mute TV. Do not go into the hour before. Sadness is the trigger. The rag is the scene.",
+        image: "images/wmw-vell.png",
+        felt: "A different addiction than Nix’s. Same floodgate. She wants the prompt to wash her so the body does not have to get up. 2892 is on mute, a courtyard laughing without her. Not porn. The chair after. Grey.",
+        lines: [
+          { who: "Vell", text: "Write the rag. Do not write the hour before." },
+          { who: "The model", text: "Here is a morning where you are already clean." },
+          { who: "Vell", text: "The body is still in the bed." },
+          { who: "2892 (mute)", text: "—" },
+        ],
+      },
+      {
+        n: 4,
+        slug: "INT. AYO’S TABLE — SET FOR SIX",
+        camera: "Wide on the empty places. Then his face trying to be a host. High achievers who are mostly alone, grouped, suffering the group.",
+        image: "images/wmw-ayo.png",
+        felt: "The invite said community. He can buy the food and the gene-switch and the view. He cannot stay in the conversation. Channel 2892 is on, low, people wishing themselves well. He thinks that is a hobby for other people.",
+        lines: [
+          { who: "Calendar", text: "Hang with people — 20:00–21:00." },
+          { who: "Ayo", text: "I can host. I cannot stay." },
+          { who: "Empty chair", text: "—" },
+        ],
+      },
+      {
+        n: 5,
+        slug: "INT. OFFSITE / GWEN’S CIRCLE — DAY",
+        camera: "The wall TV first, then the name tags, then Gwen not laughing. Do not make the others villains. They are wishing themselves well with attendance.",
+        image: "images/wmw-gwen.png",
+        felt: "Mandatory community. She did the stupid way correctly and got promoted into chairs that face other chairs. Influence high. Relation a costume. 2892 plays a man who cannot stay at his own table. She recognizes him and will not say.",
+        lines: [
+          { who: "Facilitator", text: "Go around. One word for how you feel in this group." },
+          { who: "Gwen", text: "Here." },
+          { who: "Facilitator", text: "Beautiful. Thank you for your vulnerability." },
+          { who: "Gwen (later, to nobody)", text: "They said community. They meant attendance." },
+        ],
+      },
+      {
+        n: 6,
+        slug: "INT. THE WELL / KIDS ON THE FLOOR",
+        camera: "From behind their heads. The TV is a quad of adults watching TVs. Innocence does not need a thesis. Hold the tuk-tuk in the doorway.",
+        image: "images/wmw-e8-02.png",
+        felt: "Underdeveloped egos. They are not addicted to the prompt or the group. They see a puddle of screens. Same show. One family. Juniper does not file it as a concept. Moss already knew.",
+        lines: [
+          { who: "Juniper", text: "They’re all looking at the same puddle." },
+          { who: "Moss", text: "Biju’s puddle had a cat." },
+          { who: "Juniper", text: "This one has people." },
+        ],
+      },
+      {
+        n: 7,
+        slug: "EXT. COURTYARD OF WINDOWS — NIGHT",
+        camera: "Beauty first. Anu not impressive. Many identical silhouettes. Do not sermon. Let her smile be the clap.",
+        image: "images/wmw-e8-03.png",
+        felt: "The city is only as big as the connections. Tonight the connections are a channel. Prompt addicts, lonely achievers, a clinic lounge, a bunk, a Lisbon doorway, an organizer between worries. Anu does not rank the rooms. Mother told us to laugh. They are watching themselves. Clap anyway.",
+        lines: [
+          { who: "Anu", text: "Same show. One family." },
+          { who: "A window", text: "—" },
+          { who: "Anu", text: "Clap anyway." },
+          { who: "Channel 2892 (end card)", text: "WISH MYSELF WELL" },
+        ],
+      },
+    ],
+  },
+
   world: {
     time: "A little after the dollar stopped being the default stored value. Tokens are ordinary. AI is accepted. Robots are furniture. The moon is a commute for work crews; the nearest planet is a rich person’s weekend. Trash-eating, plastic-eating, oil-eating bacteria took the edge off the old inhabitable-earth panic. Iron can be spun from pollutants in the air. The biggest breakthrough is not that. The biggest breakthrough is inside, and it has the ratings.",
     money: "Decentralized stored value is the standard. Alt-coins already run AI agents. Governments still rank — maybe starker, maybe not. People still think more money means even sickness will avoid them. Marketing is the weather that sells that hope. The body does not read the ad.",
@@ -1901,13 +2056,13 @@ const SHOW = {
     },
     {
       title: "Prompt addicts / lonely achievers",
-      bag: "Regular cutaway",
-      text: "Nix: every addiction has a chat window. Ayo: high achiever, mostly alone, grouped and suffering. Feature them like old soaps featured drink. Meta: they are also watching 2892.",
+      bag: "Regular cutaway · 2892.08",
+      text: "Nix: rewrite-my-life. Vell: shame/rag, binge off camera. Flavors rotate: body, sleep, rank, shop, God. Ayo: host who cannot stay. Gwen: mandatory offsite, suffering the circle. Feature them like old soaps featured drink. Meta: they are also watching 2892. Watch tab always shows three rooms on this hour.",
     },
     {
       title: "People watching the show",
-      bag: "Meta",
-      text: "Different characters in different rooms watching the same episode. The city is as big as those connections. Episode 2 cold-opens on this.",
+      bag: "Meta · 2892.08",
+      text: "Different characters in different rooms watching the same episode. The city is as big as those connections. Episode 2 cold-opens on this. Episode 8 makes the device the plot. Also-watching is a repeating strip, not a one-off.",
     },
   ],
 
@@ -2161,6 +2316,21 @@ const SHOW = {
       title: "Innocence trying the hardest",
       bag: "Tone, not a novel",
       text: "A person who wants to be smart, tries the hardest, cannot see the pictures in the ink, and is still the one worth using. That innocence is Ilya, the kids, and Riven when the schedule falls off. Do not adapt anyone else’s book. Do not paste their pages.",
+    },
+    {
+      title: "Also watching",
+      bag: "Meta",
+      text: "Do not film a lecture about screens. Film four rooms with the same flicker. Prompt addicts of various addictions. High achievers grouped and suffering. Kids who see a puddle. Anu who will not rank them. The Watch page is part of the show: whoever we are following, someone else is on this hour.",
+    },
+    {
+      title: "Various addictions, one window",
+      bag: "Prompt",
+      text: "Shame, sleep, rank, shop, God, the rag. The flavor changes. The floodgate does not. Not porn on camera — sadness, then the chair. Nix rewrites a life. Vell asks for the rag. Oren’s dashboard cannot tell intervention from product.",
+    },
+    {
+      title: "Grouped and suffering",
+      bag: "Achiever",
+      text: "Mostly alone. Have to group. The offsite is mandatory. Ayo can host and cannot stay. Gwen’s one word is Here. Attendance is not company. Film the name tag, not the TED talk.",
     },
   ],
 };

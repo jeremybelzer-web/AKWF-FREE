@@ -67,6 +67,7 @@
           </div>
           <p class="mini">${esc(ep.note)}</p>
         </div>
+        <section class="also-watch" id="also-watch" aria-label="Also watching this hour"></section>
         <div class="filmstrip" id="strip"></div>
         <article class="board" id="board"></article>
       `;
@@ -75,7 +76,7 @@
     people() {
       return `
         <h2 class="section-h">People we follow</h2>
-        <p class="lede">GoT banners, a Friends courtyard, Anne’s weather, Bluey’s kids, and The Six — a Stranger-Things-sized songwriter circle. Ramanandji is the one who actually made time. Lark’s Lisbon doorway is the grey listing. Desire to be someone drives all of them. Shame turns the volume up.</p>
+        <p class="lede">GoT banners, a Friends courtyard, Anne’s weather, Bluey’s kids, and The Six — a Stranger-Things-sized songwriter circle. Ramanandji is the one who actually made time. Lark’s Lisbon doorway is the grey listing. Nix and Vell are prompt addicts of different hungers. Ayo and Gwen are high achievers, mostly alone, forced to group. Desire to be someone drives all of them. Shame turns the volume up. They are also watching.</p>
         <div class="grid-people">
           ${SHOW.characters.map(card).join("")}
         </div>
@@ -329,13 +330,54 @@
   let panelIndex = 0;
 
   function episodeList() {
-    return [SHOW.episode1, SHOW.episode2, SHOW.episode3, SHOW.episode4, SHOW.episode5, SHOW.episode6, SHOW.episode7].filter(Boolean);
+    return [SHOW.episode1, SHOW.episode2, SHOW.episode3, SHOW.episode4, SHOW.episode5, SHOW.episode6, SHOW.episode7, SHOW.episode8].filter(Boolean);
+  }
+
+  function alsoWatchingFor(i) {
+    const meta = SHOW.meta || { rooms: [], promptFlavors: [] };
+    const rooms = meta.rooms || [];
+    const prompts = rooms.filter((r) => r.kind === "prompt");
+    const achievers = rooms.filter((r) => r.kind === "achiever");
+    const others = rooms.filter((r) => r.kind === "watch");
+    const pick = (arr, n) => (arr.length ? arr[n % arr.length] : null);
+    const flavors = meta.promptFlavors || [];
+    const flavor = flavors.length ? flavors[i % flavors.length] : null;
+    return {
+      note: meta.note || "",
+      flavor,
+      rooms: [pick(prompts, i), pick(achievers, i), pick(others, i)].filter(Boolean),
+    };
   }
 
   function bindWatch() {
     const ep = episodeList()[epIndex] || SHOW.episode1;
     const strip = document.getElementById("strip");
     const pick = document.getElementById("ep-pick");
+    const also = document.getElementById("also-watch");
+    if (also) {
+      const cut = alsoWatchingFor(epIndex);
+      const flavorLine = cut.flavor ? `<p class="mini also-flavor">This hour’s prompt flavor · ${esc(cut.flavor.line)}</p>` : "";
+      also.innerHTML = `
+        <p class="ch">${esc((SHOW.meta && SHOW.meta.title) || "Also watching")}</p>
+        <p class="mini">${esc(cut.note)}</p>
+        ${flavorLine}
+        <div class="also-rooms">
+          ${cut.rooms
+            .map(
+              (r) => `
+            <article class="also-room">
+              <img src="${esc(r.still)}" alt="${esc(r.who)}" />
+              <div class="also-body">
+                <p class="seed-bag">${esc(r.kind)} · ${esc(r.flavor)}</p>
+                <h3>${esc(r.who)}</h3>
+                <p class="mini">${esc(r.watching)}</p>
+                <p class="quote">${esc(r.line)}</p>
+              </div>
+            </article>`
+            )
+            .join("")}
+        </div>`;
+    }
     if (pick) {
       pick.onclick = (e) => {
         const b = e.target.closest("button[data-ep]");

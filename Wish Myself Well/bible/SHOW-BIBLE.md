@@ -26,6 +26,16 @@ Tone mix: **Game of Thrones** (faction cutaways, power, no one clean), **Friends
 
 Meta cold-open: four rooms watching 2892. Father Sol’s hill and Ilya’s real tears. Sofa catch-22. The chain that wasn’t. Nix the prompt addict. Ayo the lonely high achiever. Anu makes them clap. Harsha’s joke, then mute silence.
 
+## Meta — also watching (repeating, not a one-off)
+
+The show is people watching the show. Different rooms, same episode. The Watch tab always cuts away to three rooms on this hour: one **prompt addict**, one **lonely high achiever**, one other.
+
+Prompt addicts of various addictions, featured like drink on an old soap. **Nix Calder** rewrites a life (body, sleep, shop, God). **Vell Ames** is the shame flavor — sadness trigger, then the chat; the binge stays off camera; only the rag. Flavors rotate with the episode index.
+
+High achievers who are mostly alone, have to group, and are suffering it. **Ayo Brennan** can host and cannot stay. **Gwen Adeyemi**, 44, mandatory offsite, name tag, one word for the circle: *Here.*
+
+Episode 8 — **Also Watching** — makes the device the plot. Kids see a puddle of screens. Anu will not rank the rooms. Clap anyway.
+
 ## Engines tab
 
 The rest of the manifesto, turned into scene-engines (particular vs nearest, two monks, cow-for-milk, white/red flowers, coffee table, Sisyphus tube, cult conversation, etc.).
@@ -110,13 +120,17 @@ Anu will not explain the sky. Flower: beauty, no meaning. Penthouse: meaning, no
 
 Obsessed with should: a type of madness. Rope on the path — fearlessness is coming back with a flashlight. Room 330: closet, tote, do not editorialize. Nima’s laptop in the toilet. Newness dies at the opening. Extra worries. Impressing a two-way glass. Kids already doing experience.
 
+## Episode 6 — Even Sickness
+
+Possessions as hope-constructs. Marketing weather. A gold watch and a fever. Billboard dark: some thoughts change, the cycle does not. Temporary happiness, then discontent. Mira drinks the vial too.
+
 ## Episode 7 — Other People’s Teeth
 
 Comedy hour. Mouth guard / other people’s teeth. Date with swamis. Bathroom laugh (punchline withheld). Telekinesis ghost. Ramanandji’s perfect stripe out a window. Cave coach next season. Then the lake. The laugh is the witness. Full scripts live on the Skits tab. More voice memos welcome.
 
-## Episode 6 — Even Sickness
+## Episode 8 — Also Watching
 
-Possessions as hope-constructs. Marketing weather. A gold watch and a fever. Billboard dark: some thoughts change, the cycle does not. Temporary happiness, then discontent. Mira drinks the vial too.
+The episode is people watching the episode. Nix sees himself on 2892 and prompts understanding. Vell asks for the rag. Ayo’s table is set for six. Gwen attends community. Juniper and Moss: they’re all looking at the same puddle. Anu, courtyard of windows: same show, one family.
 
 ## Meaning, objects, samsara
 
