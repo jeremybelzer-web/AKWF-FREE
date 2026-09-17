@@ -94,7 +94,7 @@ Stranger-Things-sized, online and in person, around the world. Follow them like 
 
 Adjacent, not in the band:
 
-- **Ramanandji** — yellow robes. Kira was sure nobody would make time. He did. Stay focused on the goal. Grey stripe a little too perfect.
+- **Ramanandji** — yellow robes. Kira was sure nobody would make time. He did. Stay focused on the goal. Episode 10 is that hour. Grey stripe a little too perfect — another episode.
 - **Lark Quinn** — Lisbon 30-day listing, super knew, landlord at the door, IN LEGAL, guest Monday. Grey. Wizard of Unhappiness / Almost.
 
 ### Lyric craft (Songs tab)
@@ -134,7 +134,11 @@ The episode is people watching the episode. Nix sees himself on 2892 and prompts
 
 ## Episode 9 — Hide the Guru
 
-Kira’s hour. Awkward, neurotic, divergent. The vote. The aging dog. The bills. Satsang: why do I have to hide my guru, hide God, hide myself. Empty playground: why is my presence not okay. First week in white, almost left, then followed. Happy, guilty, destroyed it. You’re a little different and that’s okay. Ramanandji said stay focused on the goal. The walk where he actually makes time is still coming.
+Kira’s hour. Awkward, neurotic, divergent. The vote. The aging dog. The bills. Satsang: why do I have to hide my guru, hide God, hide myself. Empty playground: why is my presence not okay. First week in white, almost left, then followed. Happy, guilty, destroyed it. You’re a little different and that’s okay. Ramanandji said stay focused on the goal. She was sure nobody would make time.
+
+## Episode 10 — And He Did
+
+If you could just ask them: she guarantees they will not. Ramanandji might. Yellow robes. He does. Walks the wall. Sits down. Helps her widen. Stay focused on the goal. Not impressive. Attention as the wise way. The grey stripe is another episode.
 
 ## Meaning, objects, samsara
 

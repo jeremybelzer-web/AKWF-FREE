@@ -11,7 +11,7 @@ python3 -m http.server 8765
 
 Then visit `http://localhost:8765`.
 
-- **Watch** — Episodes 1–9 (through `Hide the Guru`, Kira’s hour). Every hour shows three other rooms on the same episode: a prompt addict, a lonely achiever, and one more.
+- **Watch** — Episodes 1–10 (through `And He Did`, the hour Ramanandji actually sat down). Every hour shows three other rooms on the same episode: a prompt addict, a lonely achiever, and one more.
 - **Skits** — full bunk scripts; more voice memos welcome
 - **People** — ensemble, including The Six, Ramanandji, Lark’s Lisbon listing, Nix/Vell (prompt flavors), Ayo/Gwen (grouped and suffering)
 - **Songs** — The Six’s workshop: original hooks, verses, craft devices. No other artists’ lyrics.

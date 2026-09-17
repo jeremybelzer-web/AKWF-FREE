@@ -290,7 +290,7 @@ const SHOW = {
       wound: "Roommates vote her out. Aging dog. Not much money. Elementary school: did I have friends? No. Why is my presence not okay. She was happy, felt guilty, destroyed it, now miserable like the people who shoved.",
       wishStyle: "Honesty as the wise way, even when it explodes the room. Used to rejection. Still hunting community. Strangely inspiring.",
       quote: "If I have to hide who I am I’ll explode. Why can’t we just love each other?",
-      bio: "The situations are actually too much; her nervous system is not a bit. First week everyone was wearing white and she was getting out. Then she followed Mother Anu everywhere. If we deal with feelings like teenagers we get adults who never did. Episode 9 is her hour. Ramanandji said stay focused on the goal. She was sure nobody would make time.",
+      bio: "The situations are actually too much; her nervous system is not a bit. First week everyone was wearing white and she was getting out. Then she followed Mother Anu everywhere. If we deal with feelings like teenagers we get adults who never did. Episode 9 is her hour. She was sure nobody would make time. Ramanandji might. And he did. Episode 10 is that hour.",
       lens: { body: 55, mind: 60, feeling: 80, relation: 35, work: 40, influence: 15, love: 70, seva: 55, witness: 40, pain: 60 },
       lensLater: { body: 55, mind: 55, feeling: 70, relation: 50, work: 42, influence: 18, love: 75, seva: 60, witness: 52, pain: 40 },
     },
@@ -452,7 +452,7 @@ const SHOW = {
       { id: "kira", who: "Kira Voss", kind: "watch", flavor: "hide the guru", still: "images/wmw-kira.png", watching: "with the aging dog", line: "Why do I have to hide this to make you happy." },
       { id: "lark", who: "Lark Quinn", kind: "watch", flavor: "Lisbon doorway", still: "images/wmw-lark.png", watching: "on a guest’s wifi", line: "I have not received any notice yet." },
       { id: "kids", who: "Juniper & Moss", kind: "watch", flavor: "floor of The Well", still: "images/wmw-kids.png", watching: "adults watching adults", line: "They’re all looking at the same puddle." },
-      { id: "nima", who: "Nima Shah", kind: "watch", flavor: "organizer", still: "images/wmw-e5-03.png", watching: "between maintenance", line: "I called them. It was in the toilet." },
+      { id: "ramanand", who: "Ramanandji", kind: "watch", flavor: "the one who sat down", still: "images/wmw-ramanand.png", watching: "without performing busy", line: "I have an hour. Take it." },
     ],
   },
 
@@ -586,7 +586,7 @@ const SHOW = {
         "If we deal with it like teenagers we get adults who never did.",
         "Why can’t we say you’re a little different and I can’t understand you but that’s okay.",
         "Everyone wants to be the star. I was happy. I felt guilty. I destroyed it. Now I’m miserable like them.",
-        "Ramanandji said stay focused on the goal.",
+        "Ramanandji said stay focused on the goal. I was sure he wouldn’t make time. And he did.",
       ],
       note: "Roommates vote. Dog on the shin. Not much money. Episode 9. The explosion is the chorus. Do not sermon it.",
     },
@@ -854,7 +854,21 @@ const SHOW = {
         "When you write for them you fix what you think they think is wrong.",
         "When you write with the light the shine is divine.",
       ],
-      note: "Kira after Ramanandji. Small, not crushed.",
+      note: "Kira after Ramanandji. Small, not crushed. Episode 10 widens the room. Do not pretty the hour into a TED talk.",
+    },
+    {
+      title: "I Have an Hour",
+      who: "Kira / Ramanandji",
+      status: "live",
+      device: "Opposite-device: busy as holiness, then the man who sat down",
+      hook: "I guarantee they’re not gonna make time for me. Ramanandji might. And he did.",
+      verses: [
+        "If you could just ask them.",
+        "Yellow robes. Not a brand. I have an hour. Take it.",
+        "Stay focused on the goal. You already know what it is.",
+        "Don’t try to be the sky.",
+      ],
+      note: "2892.10. Attention as the wise way. He spends it.",
     },
     {
       title: "Sixteen Cheers",
@@ -1900,7 +1914,7 @@ const SHOW = {
     title: "Hide the Guru",
     logline:
       "An awkward, neurotic, divergent woman is voted out of her apartment. The dog is old. The money is not enough. She will not hide God to make the room comfortable. Strangely inspiring. The situations are actually too much.",
-    note: "Kira’s hour. Felt, then funny, then felt. Satsang as a scene, not a lecture. Ramanandji’s walk waits; tonight she only has what he said.",
+    note: "Kira’s hour. Felt, then funny, then felt. Satsang as a scene, not a lecture. She was sure nobody would make time. 2892.10 is the walk.",
     panels: [
       {
         n: 1,
@@ -1981,11 +1995,109 @@ const SHOW = {
         slug: "INT. THE SIX — HIDE THE GURU",
         camera: "Lag as a third person. Dog on the shin if we can steal it. Styro will not pretty it. Riven will try to schedule the explosion.",
         image: "images/wmw-six-call.png",
-        felt: "Why can’t we say you’re a little different and I can’t understand you but that’s okay. Situation first. Moral never. Ramanandji said stay focused on the goal. She was sure nobody would make time. The hour that he did is another episode. Tonight the chorus is enough.",
+        felt: "Why can’t we say you’re a little different and I can’t understand you but that’s okay. Situation first. Moral never. Ramanandji said stay focused on the goal. She was sure nobody would make time. Next week: and he did.",
         lines: [
           { who: "Kira", text: "Why can’t we say you’re a little different and I can’t understand you but that’s okay." },
           { who: "Styro", text: "That’s the hook. Don’t pretty it." },
           { who: "Kira", text: "Ramanandji said stay focused on the goal. I was sure nobody would make time." },
+          { who: "Channel 2892 (end card)", text: "WISH MYSELF WELL" },
+        ],
+      },
+    ],
+  },
+
+  episode10: {
+    id: "e10",
+    code: "2892.10",
+    title: "And He Did",
+    logline:
+      "If you could just ask them: she guarantees they will not make time. Ramanandji might. Yellow robes. He does. He is not impressive. He widens the room. Stay focused on the goal.",
+    note: "Attention as the wise way. He spends it. Not a conversion. Not the grey-stripe gag. The hour is the plot.",
+    panels: [
+      {
+        n: 1,
+        slug: "INT. ASHRAM CORRIDOR — THE ASKING",
+        camera: "She is still. They are motion-blur. Do not villain the busy. They are wishing themselves well with clipboards.",
+        image: "images/wmw-e10-01.png",
+        felt: "If you could just ask them. I guarantee they’re not gonna make time for me. Used to rejection. The door is closed. White clothes go past. Community is a hallway that does not stop.",
+        lines: [
+          { who: "Kira", text: "If you could just ask them." },
+          { who: "Kira", text: "I guarantee they’re not gonna make time for me." },
+          { who: "A clipboard", text: "—" },
+        ],
+      },
+      {
+        n: 2,
+        slug: "EXT. COURTYARD WALL — HE MIGHT",
+        camera: "Find him already sitting. No entrance. Yellow robes, not a brand. The miracle is that he is still there when she arrives.",
+        image: "images/wmw-ramanand.png",
+        felt: "Ramanandji might. He is not the guru. He is the one who did not flinch. A grey stripe a little too perfect if you look — later, another episode. Tonight he has an hour.",
+        lines: [
+          { who: "Kira", text: "Ramanandji might." },
+          { who: "Ramanandji", text: "—" },
+          { who: "Kira", text: "You might." },
+        ],
+      },
+      {
+        n: 3,
+        slug: "EXT. THE WALL — AND HE DID",
+        camera: "Walk-and-talk, no score. He is not impressive. That is the miracle. Dust, dusk, her hands.",
+        image: "images/wmw-e3-04.png",
+        felt: "And he did. Ramanand Swami in yellow robes made time for her. Helped her widen her perspective. Channel 2892 treats the hour like the fate of the world because for her it is.",
+        lines: [
+          { who: "Kira", text: "I guarantee they’re not going to make time for me. You might." },
+          { who: "Ramanandji", text: "I have an hour. Take it." },
+          { who: "Kira", text: "—" },
+        ],
+      },
+      {
+        n: 4,
+        slug: "EXT. THE WALL — HE STAYS",
+        camera: "Two on a stone. He listens longer than is comfortable. Do not cut away to prove he is holy. The listening is the seva.",
+        image: "images/wmw-e10-02.png",
+        felt: "She talks. The vote. The dog. The bills. Hide the guru. Why is my presence not okay. He does not fix it. He does not rank it. He spends the hour. Attention as the wise way.",
+        lines: [
+          { who: "Kira", text: "Why is my presence not okay." },
+          { who: "Ramanandji", text: "I’m here. Keep going." },
+          { who: "Kira", text: "Everyone wants to be the star. That’s what happened to me." },
+          { who: "Ramanandji", text: "Stay focused on the goal. You already know what it is." },
+        ],
+      },
+      {
+        n: 5,
+        slug: "EXT. THE HILL — THE ROOM GETS WIDER",
+        camera: "Start on their backs. Then the river. Then the city. Perspective as geography. Do not add a lecture.",
+        image: "images/wmw-e10-03.png",
+        felt: "He helped her widen. Not a TED talk. A valley. The vote is still true. The dog is still old. The money is still not enough. The heart is larger than the apartment. Stay focused on Amma. Stay focused on the goal.",
+        lines: [
+          { who: "Ramanandji", text: "Stay focused on her." },
+          { who: "Kira", text: "On the goal." },
+          { who: "Ramanandji", text: "Same thing, if you let it be." },
+          { who: "The valley", text: "—" },
+        ],
+      },
+      {
+        n: 6,
+        slug: "EXT. DUSK — FLASHLIGHT AMONG STARS",
+        camera: "She is small in the frame again, on purpose. Not crushed. A flashlight. The sky does the rest.",
+        image: "images/wmw-kira.png",
+        felt: "I’m a flashlight among stars. The furthest thing I’ve seen from God and Love is still seeking God and Love. He did not make her impressive. He made the room wide enough that she could stay in it.",
+        lines: [
+          { who: "Kira", text: "I’m a flashlight among stars." },
+          { who: "Ramanandji", text: "Good. Don’t try to be the sky." },
+          { who: "Kira", text: "And you made time." },
+        ],
+      },
+      {
+        n: 7,
+        slug: "INT. THE SIX — LATER",
+        camera: "Lag as a third person. Styro will not pretty it. Riven hears an hour he would have scheduled and missed.",
+        image: "images/wmw-six-call.png",
+        felt: "The rare adult who did not flinch. She was sure nobody would. He might. And he did. The grey stripe and the window are true too. Both stories. Grey. Tonight the chorus is: he sat down.",
+        lines: [
+          { who: "Kira", text: "I guarantee they weren’t going to make time. Ramanandji might." },
+          { who: "Kira", text: "And he did." },
+          { who: "Styro", text: "That’s the whole religion. Don’t pretty it." },
           { who: "Channel 2892 (end card)", text: "WISH MYSELF WELL" },
         ],
       },
@@ -2122,8 +2234,8 @@ const SHOW = {
     },
     {
       title: "Ramanandji made time",
-      bag: "Yellow robes",
-      text: "She was sure nobody would. He might. And he did. Stay focused on the goal. Widened her. Grey stripe a little too perfect — vanity in a man who sat down. Not the guru. The one who stayed.",
+      bag: "Yellow robes · 2892.10",
+      text: "If you could just ask them: she guarantees they will not. Ramanandji might. And he did. Yellow robes. Walked the wall. Sat down. Helped her widen. Stay focused on the goal. Not the guru. The one who stayed. Grey stripe is another episode.",
     },
     {
       title: "Lisbon listing",
@@ -2437,6 +2549,11 @@ const SHOW = {
       title: "A little different",
       bag: "Kira",
       text: "Do not film a diagnosis. Film the vote, the dog, the bills, the empty playground. If I have to hide who I am I’ll explode. If we deal with it like teenagers we get adults who never did. You’re a little different and I can’t understand you but that’s okay. Strangely inspiring is not a costume. The situations are actually too much.",
+    },
+    {
+      title: "He made time",
+      bag: "Ramanandji",
+      text: "Do not film a sermon about presence. Film the closed door, then the yellow robes already sitting. I have an hour. Take it. Widen as a valley, not a TED talk. Stay focused on the goal. He is not impressive. That is the miracle.",
     },
   ],
 };
