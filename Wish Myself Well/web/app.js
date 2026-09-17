@@ -76,7 +76,7 @@
     people() {
       return `
         <h2 class="section-h">People we follow</h2>
-        <p class="lede">GoT banners, a Friends courtyard, Anne’s weather, Bluey’s kids, and The Six. Kira will not hide the guru; the situations are actually too much. Ramanandji is the one who actually made time. Lark’s Lisbon doorway is the grey listing. Nix and Vell are prompt addicts of different hungers. Ayo and Gwen are high achievers, mostly alone, forced to group. Desire to be someone drives all of them. Shame turns the volume up. They are also watching.</p>
+        <p class="lede">GoT banners, a Friends courtyard, Anne’s weather, Bluey’s kids, and The Six. Kira will not hide the guru; the situations are actually too much. Ramanandji is the one who actually made time. Lark’s hour is 2892.11 IN LEGAL — grey Lisbon listing, not a heist. Nix and Vell are prompt addicts of different hungers. Ayo and Gwen are high achievers, mostly alone, forced to group. Desire to be someone drives all of them. Shame turns the volume up. They are also watching.</p>
         <div class="grid-people">
           ${SHOW.characters.map(card).join("")}
         </div>
@@ -264,8 +264,8 @@
 
     seeds() {
       return `
-        <h2 class="section-h">Seeds for later episodes</h2>
-        <p class="lede">A scads pile, sorted enough to steal from. Small dramas first. Freak occurrences allowed. The boring day is the engine.</p>
+        <h2 class="section-h">Seeds & episode cards</h2>
+        <p class="lede">A scads pile, sorted enough to steal from. Some already have hours. Small dramas first. Freak occurrences allowed. The boring day is the engine.</p>
         <div class="seeds">
           ${SHOW.seeds
             .map(

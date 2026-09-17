@@ -110,7 +110,7 @@ Episode 3 — **How You Do Anything** — is their workshop hour.
 
 ## Episode 3 — How You Do Anything
 
-The Six on a worldwide call. Styro’s gasket. Kira’s vote / Hide the Guru. Ramanandji makes time. Dev eats the mango. Wren on the bus. Saffi in the car. Lark’s Lisbon doorway.
+The Six on a worldwide call. Styro’s gasket. Kira’s vote / Hide the Guru. Ramanandji makes time. Dev eats the mango. Wren on the bus. Saffi in the car. Lark’s Lisbon doorway — teaser; full hour is Episode 11 (`IN LEGAL`).
 
 ## Episode 4 — Paper and Brush
 
