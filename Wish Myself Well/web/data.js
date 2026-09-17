@@ -19,7 +19,7 @@ const SHOW = {
     meaning:
       "Life itself has no inherent meaning. It simply exists as a pervading presence. God gives a paper and a brush. Sky, sunset, sunrise, flower: beauty, not necessarily meaning. Gadgets and houses: commodities — meaning, not necessarily beauty. Life relies on how we create meaning. Not the quantity we acquire. Quality. Quantity perishes. Quality does not.",
     samsara:
-      "The disease of birth and death is this: temporary happiness, then deep discontent. New things lose their newness the moment the package opens. Each purchase buys an extra worry.",
+      "The disease of birth and death is this: temporary happiness, then deep discontent. Humanity is obsessed with what should be — a type of madness. New things lose their newness the moment the package opens. Each purchase buys an extra worry: break, scratch, theft. Objects demand maintenance. We buy to impress people who are busy impressing us. Happiness leans on experience, not the thing.",
   },
   rules: [
     "No absolute good or evil. Even a murderer loves their child. Grey only.",
@@ -352,6 +352,21 @@ const SHOW = {
       bio: "Regular grey cutaway, not a heist. She has been traveling most of the year, subletting the azulejo apartment 30 days or more, super in on it. Channel 2892 treats the doorway like the fate of the world. The Six argue whether her verse belongs in Wizard of Unhappiness or in Almost. Riven hears his own money-wound in her phone.",
       lens: { body: 58, mind: 72, feeling: 36, relation: 28, work: 64, influence: 18, love: 22, seva: 8, witness: 12, pain: 62 },
       lensLater: { body: 55, mind: 60, feeling: 44, relation: 40, work: 50, influence: 14, love: 30, seva: 16, witness: 22, pain: 48 },
+    },
+    {
+      id: "nima",
+      name: "Nima Shah",
+      age: 42,
+      role: "The organizer — laptop in the toilet",
+      image: "images/wmw-e5-03.png",
+      vibe: "Holds the gathering together. The gathering holds her hostage.",
+      want: "That the objects stay where she put them. That the retreat not be her fault.",
+      wound: "Called the police for a laptop. Found it in the toilet. Every object she owns is a pet that never loves back.",
+      wishStyle: "Maintenance as love. Quantity of care as proof.",
+      quote: "I called them. It was in the toilet.",
+      bio: "Main organizer. Room 330 is not her room and still she feels responsible for its closet. She buys the newer tote to impress people who are busy impressing her. Episode 5’s comic holy: the extra worry, then the laugh.",
+      lens: { body: 48, mind: 78, feeling: 40, relation: 55, work: 88, influence: 30, love: 35, seva: 70, witness: 18, pain: 58 },
+      lensLater: { body: 50, mind: 65, feeling: 52, relation: 62, work: 70, influence: 24, love: 44, seva: 72, witness: 32, pain: 36 },
     },
     {
       id: "nix",
@@ -847,6 +862,33 @@ const SHOW = {
         "Not the quantity we acquire. Quantity perishes. Quality does not.",
       ],
       note: "Anu’s courtyard. Kids already know. Riven tries to schedule the quality.",
+    },
+    {
+      title: "What Should Be",
+      who: "Riven / Nima / The Six",
+      status: "workshop",
+      device: "Specific + general",
+      hook: "Humanity is obsessed with what should be. A type of madness.",
+      verses: [
+        "The package is still singing in the store. At home it is already old.",
+        "Each purchase is one more thing that can break, scratch, or be stolen.",
+        "I called the police. It was in the toilet.",
+        "You’re trying to impress me. I’m trying to impress you. Nobody’s watching.",
+      ],
+      note: "Room 330 as the second verse, not a moral. Experience over the thing — show it, don’t cite research.",
+    },
+    {
+      title: "Come Back with a Light",
+      who: "Riven",
+      status: "hook",
+      device: "Snapshot",
+      hook: "You see a rope. You run. Can you come back with a flashlight. That is fearlessness.",
+      verses: [
+        "Not the absence of the flinch. The return.",
+        "The closet in 330 is the same rope, indoors.",
+        "All objects demand a flashlight. They never stop demanding.",
+      ],
+      note: "Do not explain the harnesses. Grey. The return is the action.",
     },
     {
       title: "Mother Told Us to Laugh",
@@ -1377,6 +1419,112 @@ const SHOW = {
     ],
   },
 
+  episode5: {
+    id: "e05",
+    code: "2892.05",
+    title: "What Should Be",
+    logline:
+      "A rope on a path. A closet in Room 330. A laptop in a toilet. Newness dies when the package opens. Each object is a pet that never loves back. Happiness is an experience; the store keeps selling should.",
+    note: "Objects as Matrix stakes. Funny then felt. Do not editorialize the closet. Do not cite the study — film the face in the clinic mirror.",
+    panels: [
+      {
+        n: 1,
+        slug: "INT. THE WELL / RIVEN’S ROOM — MORNING",
+        camera:
+          "Calendar first. Then his face, offended by the present tense.",
+        image: "images/wmw-panel-02.png",
+        felt: "Humanity is obsessed with what should be. A type of madness. The day is already failing the list. Me-and-mine has a tense: future. The kids in the courtyard are stuck in is.",
+        lines: [
+          { who: "Riven", text: "It should have been a rest day. I wrote rest." },
+          { who: "The calendar", text: "You wrote should." },
+          { who: "Juniper (from the yard)", text: "Uncle. There’s a rope." },
+        ],
+      },
+      {
+        n: 2,
+        slug: "EXT. PATH AT THE EDGE OF THE PARK — DUSK",
+        camera:
+          "Treat the rope like a bomb. He runs. Hold the empty path. Then he comes back with a cheap flashlight. That is the action scene.",
+        image: "images/wmw-e5-02.png",
+        felt: "It’s like walking and you see a rope. You run away. Can you gather the strength to come back and check. Get a flashlight. That is fearlessness. Not the absence of the flinch. The return.",
+        lines: [
+          { who: "Riven (gone, then back)", text: "It’s a rope." },
+          { who: "Juniper", text: "Did you look." },
+          { who: "Riven", text: "I came back." },
+          { who: "Moss", text: "That’s the brave part." },
+        ],
+      },
+      {
+        n: 3,
+        slug: "INT. WESTIN / ROOM 330 — LATE AFTERNOON",
+        camera:
+          "Do not editorialize. Closet ajar. Straps among hangers. Canvas tote on the sill. Grey. Let the viewer flinch. Let Nima maintain.",
+        image: "images/wmw-e5-01.png",
+        felt: "Harnesses inside the closet. Treats in a canvas tote by the window. All objects demand attention. They need to be maintained, kept up to date. The room is not a verdict. It is a set of pets that never love back. Same rope, indoors.",
+        lines: [
+          { who: "Nima", text: "I’ll handle 330." },
+          { who: "Housekeeping card", text: "—" },
+          { who: "Nima (to the tote)", text: "You too. I’ll put you away." },
+        ],
+      },
+      {
+        n: 4,
+        slug: "INT. STORE / THEN THE WELL KITCHEN — CUT",
+        camera:
+          "Attention-grabbing shelves, then a box already open on the table, already old. No commercial music.",
+        image: "images/wmw-panel-07.png",
+        felt: "Everything in the store is attention grabbing. It loses its newness the moment you open it or get home. Along with each purchase we buy extra worries. Each item is one more target for breaking, scratching, theft. Pike passes a dish that was never new.",
+        lines: [
+          { who: "Puck", text: "You opened it. It’s over." },
+          { who: "Riven", text: "I needed it." },
+          { who: "Puck", text: "You needed the should of it." },
+          { who: "Cal", text: "Eat. The food is already hot." },
+        ],
+      },
+      {
+        n: 5,
+        slug: "INT. HOTEL BATHROOM — AFTER THE POLICE CALL",
+        camera:
+          "Comic holy. Laptop in the bowl. Her face: horror, then the laugh the show was promised.",
+        image: "images/wmw-e5-03.png",
+        felt: "The main organizer lost her laptop. She was so worried she called the police. She found it in the toilet. Mother told us to laugh. The extra worry was the purchase. The toilet was the punchline the object had been saving.",
+        lines: [
+          { who: "Nima (on the phone, earlier)", text: "It’s gone. I need a report." },
+          { who: "Nima (in the doorway)", text: "I called them. It was in the toilet." },
+          { who: "Harsha (later, on 2892)", text: "Clap." },
+        ],
+      },
+      {
+        n: 6,
+        slug: "INT. AYO’S TABLE / MIRA’S MIRROR — SAME HOUR",
+        camera:
+          "Split: his empty places; her clinic glass. 25 to 35, looks as a product. Do not cite research. Film the worry.",
+        image: "images/wmw-ayo.png",
+        felt: "Buying newer products is not only need. It is impressing others. The others don’t always notice. They are busy impressing you. Material possessions are human-made constructs that sell hope. Mira’s patients between twenty-five and thirty-five come in worried about their looks. The vial is a should.",
+        lines: [
+          { who: "Ayo", text: "Did you see the table." },
+          { who: "Nobody", text: "—" },
+          { who: "Patient (Mira’s glass)", text: "Will I still be me." },
+          { who: "Mira", text: "That’s the product." },
+        ],
+      },
+      {
+        n: 7,
+        slug: "EXT. COURTYARD — KIDS, THEN THE SMEAR",
+        camera:
+          "Experience, not the thing. A wet stone. A blank page from last week. Do not moralize. Let them play.",
+        image: "images/wmw-kids.png",
+        felt: "Happiness comes from experience in all its diversity more than from possessions. The kids already knew. They did not buy the stone. They will not maintain it. Riven watches 2892 and writes a block: Experience. The block is another object.",
+        lines: [
+          { who: "Moss", text: "It’s wet." },
+          { who: "Juniper", text: "That’s the whole thing." },
+          { who: "Riven (watching, later)", text: "I should be more like that." },
+          { who: "Anu", text: "Should. Clap anyway." },
+        ],
+      },
+    ],
+  },
+
   world: {
     time: "A little after the dollar stopped being the default stored value. Tokens are ordinary. AI is accepted. Robots are furniture. The moon is a commute for work crews; the nearest planet is a rich person’s weekend. Trash-eating, plastic-eating, oil-eating bacteria took the edge off the old inhabitable-earth panic. Iron can be spun from pollutants in the air. The biggest breakthrough is not that. The biggest breakthrough is inside, and it has the ratings.",
     money: "Decentralized stored value is the standard. Alt-coins already run AI agents. Governments still rank — maybe starker, maybe not. Tax teams, law teams, emotional-upholding teams, mental-upholding teams all still wish their team well.",
@@ -1388,6 +1536,8 @@ const SHOW = {
       "The city is only as big as your connections. As big as the heart is open. No countries for an open heart. One family.",
     meaning:
       "Life has no inherent meaning. A pervading presence. Sky, sunset, flower: beauty without commodity-meaning. Gadgets and houses: meaning without beauty. Paper and a brush. Quality, not quantity. Quantity perishes.",
+    objects:
+      "All objects demand attention. They need maintenance. Newness dies at the opening. Each purchase is an extra worry. We buy to impress people who are impressing us. Room 330 is always somewhere: a closet, a tote, a rope you could come back to with a light.",
     ai:
       "Some say AI was already here, filtering in from the stars. Soul or souls; what’s artificial? It evolves faster than a year of our imagination. If God-consciousness is already everywhere, AI does not expand it. Little minds strain at thirty trillion galaxies. The strain is a scene, not a lecture.",
   },
@@ -1520,8 +1670,8 @@ const SHOW = {
     },
     {
       title: "Room 330",
-      bag: "Objects",
-      text: "Westin closet harnesses. Treats in a canvas tote by the window. A rope on a walk: run, or come back with a flashlight. That is fearlessness. Main organizer loses a laptop, calls police, finds it in the toilet. All objects demand maintenance. Other people are busy impressing you back.",
+      bag: "Objects · 2892.05",
+      text: "Westin closet: harnesses among hangers. Treats in a canvas tote by the window. Do not editorialize. Rope on a walk: run, then come back with a flashlight — fearlessness is the return. Nima the organizer loses a laptop, calls police, finds it in the toilet. All objects demand maintenance. We buy to impress people who are impressing us. Experience over the thing. Looks-worry in Mira’s glass, 25–35, as a face not a footnote.",
     },
     {
       title: "Meaning / beauty",
@@ -1531,7 +1681,7 @@ const SHOW = {
     {
       title: "Samsara of the package",
       bag: "World",
-      text: "Humanity is obsessed with what should be — a type of madness. Newness dies at the opening. Each purchase is a new target for breaking, scratching, theft. People think money keeps even sickness away. It does not.",
+      text: "Humanity is obsessed with what should be — a type of madness. Newness dies at the opening. Each purchase is a new target for breaking, scratching, theft. Happiness leans on experience, not the object. Episode 5. The next memo still owes: money as a charm against sickness.",
     },
     {
       title: "Stay a little curious",
@@ -1604,6 +1754,11 @@ const SHOW = {
   ],
 
   engines: [
+    {
+      title: "The extra worry",
+      bag: "Objects",
+      text: "Every purchase is a pet. Break, scratch, theft, updates. The store sings. Home is already old. Impressing is a two-way glass: nobody is looking. Film the toilet laptop. Then clap.",
+    },
     {
       title: "Paper and brush",
       bag: "Meaning",

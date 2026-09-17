@@ -106,6 +106,10 @@ The Six on a worldwide call. Styro’s gasket. Kira’s vote / Hide the Guru. Ra
 
 Anu will not explain the sky. Flower: beauty, no meaning. Penthouse: meaning, no beauty. Paper and a brush. Riven tries to acquire quality as a calendar block. Quantity perishes.
 
+## Episode 5 — What Should Be
+
+Obsessed with should: a type of madness. Rope on the path — fearlessness is coming back with a flashlight. Room 330: closet, tote, do not editorialize. Nima’s laptop in the toilet. Newness dies at the opening. Extra worries. Impressing a two-way glass. Kids already doing experience.
+
 ## Meaning, objects, samsara
 
 - Life has no inherent meaning. It simply exists as a pervading presence.
@@ -114,7 +118,9 @@ Anu will not explain the sky. Flower: beauty, no meaning. Penthouse: meaning, no
 - Gadgets and houses (commodities): meaning, not necessarily beauty.
 - Life relies on how we create meaning. Not the quantity we acquire. Quality. Quantity perishes; quality does not.
 - Humanity is obsessed with what should be. A type of madness.
-- Newness dies when the package opens. Each purchase is another worry (break, scratch, theft). Laptop lost, police called, found in the toilet. Room 330: harnesses in the closet, treats by the window, a rope you might come back to with a flashlight.
+- Newness dies when the package opens. Each purchase is another worry (break, scratch, theft). Nima loses a laptop, calls police, finds it in the toilet.
+- Room 330: harnesses in the closet, treats by the window. A rope you run from, then come back to with a flashlight — that is fearlessness.
+- We buy to impress people who are busy impressing us. Looks-worry in the clinic glass. Happiness leans on experience, not the thing.
 - People think more money means even sickness will avoid you. Samsara is temporary happiness followed by discontent.
 
 ## Later seeds

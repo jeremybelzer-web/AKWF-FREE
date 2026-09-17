@@ -11,7 +11,7 @@ python3 -m http.server 8765
 
 Then visit `http://localhost:8765`.
 
-- **Watch** — Episodes 1–4 (`Crazy Loser (kidding)`, `What Will Happen This Week`, `How You Do Anything`, `Paper and Brush`)
+- **Watch** — Episodes 1–5 (`Crazy Loser (kidding)`, `What Will Happen This Week`, `How You Do Anything`, `Paper and Brush`, `What Should Be`)
 - **People** — ensemble, including The Six, Ramanandji, Lark’s Lisbon listing
 - **Songs** — The Six’s workshop: original hooks, verses, craft devices. No other artists’ lyrics.
 - **The Lens** — 3D/4D chart of body, mind, feeling, relation, work, influence, love, seva; pain-body weather; witness as the unplotted center
