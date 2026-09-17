@@ -13,6 +13,7 @@ Tone mix: **Game of Thrones** (faction cutaways, power, no one clean), **Friends
 - No morals higher or lower. Grey only. Even a murderer loves their child.
 - Small everyday dramas, filmed as if the fate of the world depended on this one focus. Not Matrix shootouts. Matrix *coverage* of a napkin.
 - Mother told us to laugh at this ignorance. We keep forgetting.
+- **As funny as we can make it.** Alternate surreal/experiential with bunk-room skits. The laugh is the witness, not a commercial. See the Skits tab. More voice memos welcome.
 
 ## Riven Vale, 47 (the character Jeremy is in)
 
