@@ -2,7 +2,7 @@
   const app = document.getElementById("app");
   const nav = document.querySelectorAll(".nav a");
 
-  const routes = ["watch", "people", "lens", "world", "seeds", "bible"];
+  const routes = ["watch", "people", "songs", "lens", "world", "seeds", "bible"];
 
   function route() {
     const hash = (location.hash || "#watch").slice(1).split("/")[0];
@@ -64,9 +64,29 @@
     people() {
       return `
         <h2 class="section-h">People we follow</h2>
-        <p class="lede">GoT banners, a Friends courtyard, Anne’s weather, Bluey’s kids. Desire to be someone — spiritually, sexually, monetarily, experientially, societally — drives all of them. Shame turns the volume up.</p>
+        <p class="lede">GoT banners, a Friends courtyard, Anne’s weather, Bluey’s kids, and The Six — a Stranger-Things-sized songwriter circle. Desire to be someone — spiritually, sexually, monetarily, experientially, societally — drives all of them. Shame turns the volume up.</p>
         <div class="grid-people">
           ${SHOW.characters.map(card).join("")}
+        </div>
+      `;
+    },
+
+    songs() {
+      return `
+        <h2 class="section-h">Songs The Six are writing</h2>
+        <p class="lede">Study how the masters are both specific and general — then write original sentences. The personal experience that is the most universal. Channel 2892 is a musical whether it admits it.</p>
+        <div class="seeds">
+          ${(SHOW.songs || [])
+            .map(
+              (s) => `
+            <article class="seed">
+              <p class="seed-bag">${esc(s.who)}</p>
+              <h3>${esc(s.title)}</h3>
+              <p class="quote">${esc(s.hook)}</p>
+              <p>${esc(s.note)}</p>
+            </article>`
+            )
+            .join("")}
         </div>
       `;
     },

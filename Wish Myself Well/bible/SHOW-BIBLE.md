@@ -55,6 +55,26 @@ Ashrams, cave and jungle retreats, karma-yoga teams (most useful, most rewarding
 
 **Crazy Loser (kidding)** — napkin; Year 47 chapel of calendars; pinch and the three sentences; kids see a lantern of hours; Mira’s vial; Oren’s dashboard; Vale kitchen; prayer versus dog; Yasmin’s grey rooms; Biju’s knee equal to God.
 
+## The Six (songwriter circle)
+
+Stranger-Things-sized, online and in person, around the world:
+
+1. **Riven** — scheduler, 47, the app, shame, terrified to be born
+2. **Styro Pell** — hits, then styrofoam AC gaskets. How you do anything is how you do everything
+3. **Dr. Saffi Okonkwo** — heart surgeon in a sports car
+4. **Kira Voss** — will not hide the guru
+5. **Dev Nair** — panic is perfect; eat the mangoes; butler of tomorrow-self
+6. **Wren Solis** — never close enough; opposite-device
+
+Lyric craft: specific + general. Do not copy Cohen / Smith / Bright Eyes sentences. Steal the *device*. Channel 2892 is a musical whether it admits it. Songs live in the comic’s Songs tab.
+
+## Meaning, objects, samsara
+
+- Life has no inherent meaning. Presence. Sky/flower = beauty without commodity-meaning. Gadgets/houses = meaning without beauty. Quality over quantity.
+- Humanity is obsessed with what should be. A type of madness.
+- Newness dies when the package opens. Each purchase is another worry (break, scratch, theft). Laptop lost, police called, found in the toilet. Room 330: harnesses in the closet, treats by the window, a rope you might come back to with a flashlight.
+- People think more money means even sickness will avoid you. Samsara is temporary happiness followed by discontent.
+
 ## Later seeds
 
 See the Seeds tab in `web/`, and keep adding. Do not treat theories as the point. Earnestness is the point. Testing is the fruit.
