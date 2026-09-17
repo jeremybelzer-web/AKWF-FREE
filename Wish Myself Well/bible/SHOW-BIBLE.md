@@ -102,9 +102,17 @@ Episode 3 — **How You Do Anything** — is their workshop hour.
 
 The Six on a worldwide call. Styro’s gasket. Kira’s vote / Hide the Guru. Ramanandji makes time. Dev eats the mango. Wren on the bus. Saffi in the car. Lark’s Lisbon doorway.
 
+## Episode 4 — Paper and Brush
+
+Anu will not explain the sky. Flower: beauty, no meaning. Penthouse: meaning, no beauty. Paper and a brush. Riven tries to acquire quality as a calendar block. Quantity perishes.
+
 ## Meaning, objects, samsara
 
-- Life has no inherent meaning. Presence. Sky/flower = beauty without commodity-meaning. Gadgets/houses = meaning without beauty. Quality over quantity.
+- Life has no inherent meaning. It simply exists as a pervading presence.
+- God gives a paper and a brush.
+- Sky, sunset, sunrise, flower: beautiful, not necessarily meaningful.
+- Gadgets and houses (commodities): meaning, not necessarily beauty.
+- Life relies on how we create meaning. Not the quantity we acquire. Quality. Quantity perishes; quality does not.
 - Humanity is obsessed with what should be. A type of madness.
 - Newness dies when the package opens. Each purchase is another worry (break, scratch, theft). Laptop lost, police called, found in the toilet. Room 330: harnesses in the closet, treats by the window, a rope you might come back to with a flashlight.
 - People think more money means even sickness will avoid you. Samsara is temporary happiness followed by discontent.

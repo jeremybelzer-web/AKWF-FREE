@@ -46,7 +46,7 @@
               <div><dt>Enlightenment</dt><dd>${esc(SHOW.definition.enlightenment)}</dd></div>
               <div><dt>Rich</dt><dd>${esc(SHOW.definition.rich)}</dd></div>
               <div><dt>Wish</dt><dd>${esc(SHOW.definition.wish)}</dd></div>
-              <div><dt>City</dt><dd>${esc(SHOW.definition.city)}</dd></div>
+              <div><dt>Meaning</dt><dd>${esc(SHOW.definition.meaning)}</dd></div>
             </dl>
           </div>
         </section>
@@ -223,6 +223,7 @@
             <p>${esc(w.lens)}</p>
             <p>${esc(w.entertainment)}</p>
             <p>${esc(w.cityHeart)}</p>
+            <p>${esc(w.meaning || "")}</p>
             <p>${esc(w.ai || "")}</p>
             <figure class="city">
               <img src="images/wmw-city-heart.png" alt="Open-heart cartography of the city" />
@@ -319,7 +320,7 @@
   let panelIndex = 0;
 
   function episodeList() {
-    return [SHOW.episode1, SHOW.episode2, SHOW.episode3].filter(Boolean);
+    return [SHOW.episode1, SHOW.episode2, SHOW.episode3, SHOW.episode4].filter(Boolean);
   }
 
   function bindWatch() {

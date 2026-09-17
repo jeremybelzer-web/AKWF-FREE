@@ -17,7 +17,7 @@ const SHOW = {
     wish: "All desire is wishing yourself well. Indulgence is the stupid way. Austerity, love, patience, acceptance — the wise way. Both have the same end in view.",
     city: "The city is only as big as the number of connections in it. Which is to say: as big as your heart is open. For an open heart there are no countries. Only one family.",
     meaning:
-      "Life itself has no inherent meaning. It exists as a pervading presence. A sky, a sunset, a flower: beautiful, not necessarily meaningful. Gadgets and houses: meaning, not necessarily beauty. Quality over quantity. Quantity perishes.",
+      "Life itself has no inherent meaning. It simply exists as a pervading presence. God gives a paper and a brush. Sky, sunset, sunrise, flower: beauty, not necessarily meaning. Gadgets and houses: commodities — meaning, not necessarily beauty. Life relies on how we create meaning. Not the quantity we acquire. Quality. Quantity perishes. Quality does not.",
     samsara:
       "The disease of birth and death is this: temporary happiness, then deep discontent. New things lose their newness the moment the package opens. Each purchase buys an extra worry.",
   },
@@ -79,7 +79,7 @@ const SHOW = {
       wound: "She feels everyone’s sadness on the road to a house visit. Staff of a hundred still cannot finish the mail.",
       wishStyle: "Wise. Also: pinch, hug, joke, refuse to be recruited into their emergency.",
       quote: "Crazy loser. I’m kidding. You should be more like him.",
-      bio: "She called Riven a crazy loser, then said she was kidding, then told the order’s swamis to imitate his innocence. All three sentences were true. She will not make anyone enlightened on a timetable. She will not be threatened into it. She laughs at ignorance and keeps being forgotten.",
+      bio: "She called Riven a crazy loser, then said she was kidding, then told the order’s swamis to imitate his innocence. All three sentences were true. She will not make anyone enlightened on a timetable. She will not be threatened into it. She laughs at ignorance and keeps being forgotten. She will hold up a flower and a phone in the same breath: one has beauty and no meaning; one has meaning and no beauty. Then she hands a child cheap paper and a worn brush. Quantity perishes. She does not schedule the quality.",
       lens: { body: 55, mind: 40, feeling: 88, relation: 95, work: 90, influence: 80, love: 99, seva: 99, witness: 97, pain: 8 },
       lensLater: { body: 55, mind: 38, feeling: 90, relation: 95, work: 88, influence: 80, love: 99, seva: 99, witness: 97, pain: 8 },
     },
@@ -835,6 +835,20 @@ const SHOW = {
       note: "Lisbon doorway and Riven’s app in the same chorus. Grey.",
     },
     {
+      title: "Paper and Brush",
+      who: "Anu / Juniper & Moss",
+      status: "live",
+      device: "Specific + general",
+      hook: "What is the meaning of the sky? A sunset? A flower? None. Here — paper. Brush.",
+      verses: [
+        "Life has no inherent meaning. It is a pervading presence.",
+        "Gadgets and houses carry meaning. Commodities. Meaning, no beauty.",
+        "What is natural is beautiful and not necessarily full of meaning.",
+        "Not the quantity we acquire. Quantity perishes. Quality does not.",
+      ],
+      note: "Anu’s courtyard. Kids already know. Riven tries to schedule the quality.",
+    },
+    {
       title: "Mother Told Us to Laugh",
       who: "The Six / Anu’s courtyard",
       status: "live",
@@ -1270,6 +1284,99 @@ const SHOW = {
     ],
   },
 
+  episode4: {
+    id: "e04",
+    code: "2892.04",
+    title: "Paper and Brush",
+    logline:
+      "Anu will not explain the sky. A flower has beauty and no meaning. A penthouse has meaning and no beauty. She hands a child paper and a brush. Riven tries to acquire the quality. Quantity perishes anyway.",
+    note: "Teaching as a courtyard hour. Not a sermon. Kids already know. Matrix coverage on a blank page.",
+    panels: [
+      {
+        n: 1,
+        slug: "EXT. ANU’S COURTYARD — DUSK",
+        camera:
+          "Let the sky take the frame. She does not turn it into a lesson until someone asks. Hold the emptiness.",
+        image: "images/wmw-e4-01.png",
+        felt: "Life itself has no inherent meaning. It simply exists as a pervading presence. Juniper and Moss are looking up because she is looking up. Riven is looking at his phone because the sunset is not on the calendar.",
+        lines: [
+          { who: "Moss", text: "What’s it mean." },
+          { who: "Anu", text: "The sky?" },
+          { who: "Moss", text: "Yeah." },
+          { who: "Anu", text: "Nothing. That’s why you can look." },
+        ],
+      },
+      {
+        n: 2,
+        slug: "EXT. GARDEN / A FLOWER — GOLDEN HOUR",
+        camera:
+          "Close as a love scene on an ordinary flower, slightly crushed. No florist. Wonder, not botany.",
+        image: "images/wmw-e4-02.png",
+        felt: "What is the meaning of a sunrise, a sunset, a beautiful flower. It has no meaning. What is natural is beautiful but not necessarily full of meaning. The kids do not need this translated. The Lens, if they are wearing it, shows almost no me-and-mine on the petal.",
+        lines: [
+          { who: "Juniper", text: "It’s pretty." },
+          { who: "Anu", text: "Yes." },
+          { who: "Juniper", text: "What’s it for." },
+          { who: "Anu", text: "That question is the gadget talking." },
+        ],
+      },
+      {
+        n: 3,
+        slug: "EXT. COURTYARD DIRT — LATE DAY",
+        camera:
+          "Kneel with her. Treat the blank cheap paper like Biju’s napkin. The brush is worn. Funny, then still.",
+        image: "images/wmw-e4-03.png",
+        felt: "God gives a paper and a brush with which to write. She does not tell him what to paint. Life relies on how we create meaning. Moss looks cheated. He wanted a meaning that would arrive already filled in.",
+        lines: [
+          { who: "Anu", text: "Here. Paper. Brush." },
+          { who: "Moss", text: "What do I draw." },
+          { who: "Anu", text: "That’s the only job." },
+          { who: "Juniper (to Riven, off)", text: "Uncle, she gave him a job with no list." },
+        ],
+      },
+      {
+        n: 4,
+        slug: "INT. AYO’S PENTHOUSE — NIGHT",
+        camera:
+          "Wide on the table set for nobody. The city through glass is a commodity. Meaning, no beauty.",
+        image: "images/wmw-ayo.png",
+        felt: "Gadgets and houses carry meaning. Commodities: they have meaning but no beauty. Ayo’s dining room is a thesis. He can host. He cannot stay. Channel 2892 is on, low, Anu looking at a sky he does not have from this height.",
+        lines: [
+          { who: "2892 (Anu, on his screen)", text: "What is natural is beautiful." },
+          { who: "Ayo", text: "I paid for the view." },
+          { who: "Calendar", text: "Hang with people — skipped." },
+        ],
+      },
+      {
+        n: 5,
+        slug: "INT. THE WELL / RIVEN’S ROOM — 06:00",
+        camera:
+          "Stacked calendar light. He is acquiring blocks. Quantity. The paper on the floor is still blank because it is not a task.",
+        image: "images/wmw-panel-02.png",
+        felt: "It is not the quantity: what we acquire. Quantity will perish. He is trying to acquire quality by listing it. The quality does not perish and also will not sit still on a block named Quality.",
+        lines: [
+          { who: "Riven (aloud)", text: "Meaning. Beauty. Quality. I can do quality 05:15–05:40." },
+          { who: "The calendar", text: "You acquired another square." },
+          { who: "Riven", text: "It will perish. I wrote that down." },
+        ],
+      },
+      {
+        n: 6,
+        slug: "EXT. PUDDLE / THEN THE BLANK PAGE — NIGHT INTO MORNING",
+        camera:
+          "Biju’s knee equal to the water. Cut to Moss’s paper, still mostly empty, one smear. Hold. Do not score a moral.",
+        image: "images/wmw-panel-08.png",
+        felt: "Presence. The play of name and form. The child made a mark and stopped. Quality does not perish. It also does not accumulate. Riven will watch this on 2892 and add a block called Don’t acquire. Mother told us to laugh.",
+        lines: [
+          { who: "Biju", text: "—" },
+          { who: "Moss (to the smear)", text: "It doesn’t mean anything." },
+          { who: "Anu", text: "Good. Clap." },
+          { who: "Channel 2892 (end card)", text: "WISH MYSELF WELL" },
+        ],
+      },
+    ],
+  },
+
   world: {
     time: "A little after the dollar stopped being the default stored value. Tokens are ordinary. AI is accepted. Robots are furniture. The moon is a commute for work crews; the nearest planet is a rich person’s weekend. Trash-eating, plastic-eating, oil-eating bacteria took the edge off the old inhabitable-earth panic. Iron can be spun from pollutants in the air. The biggest breakthrough is not that. The biggest breakthrough is inside, and it has the ratings.",
     money: "Decentralized stored value is the standard. Alt-coins already run AI agents. Governments still rank — maybe starker, maybe not. Tax teams, law teams, emotional-upholding teams, mental-upholding teams all still wish their team well.",
@@ -1279,6 +1386,8 @@ const SHOW = {
       "Channel 2892. Top 500. Micro-camera movies are illegal; this still leaked to Beast-scale because the inner life is the hit. Some worship AI, since awareness and matter can be read as God and creation. The writer of this show is in the ashram, using AI, written into the series. The show is meta: different characters watch the same episode in different rooms. Prompt addicts and lonely high achievers are regular cutaways, like a drinking problem the culture renamed as productivity.",
     cityHeart:
       "The city is only as big as your connections. As big as the heart is open. No countries for an open heart. One family.",
+    meaning:
+      "Life has no inherent meaning. A pervading presence. Sky, sunset, flower: beauty without commodity-meaning. Gadgets and houses: meaning without beauty. Paper and a brush. Quality, not quantity. Quantity perishes.",
     ai:
       "Some say AI was already here, filtering in from the stars. Soul or souls; what’s artificial? It evolves faster than a year of our imagination. If God-consciousness is already everywhere, AI does not expand it. Little minds strain at thirty trillion galaxies. The strain is a scene, not a lecture.",
   },
@@ -1416,8 +1525,8 @@ const SHOW = {
     },
     {
       title: "Meaning / beauty",
-      bag: "Anu",
-      text: "Life has no inherent meaning. Sky, sunset, flower: beauty without commodity-meaning. Houses and gadgets: meaning without beauty. We create meaning. Quality, not quantity.",
+      bag: "Anu · 2892.04",
+      text: "Life has no inherent meaning — a pervading presence. Paper and a brush. Sky/sunset/flower: beauty, not meaning. Gadgets and houses: commodities, meaning without beauty. We create meaning. Not quantity. Quantity perishes; quality does not. Episode 4 is this courtyard hour, not a lecture.",
     },
     {
       title: "Samsara of the package",
@@ -1495,6 +1604,11 @@ const SHOW = {
   ],
 
   engines: [
+    {
+      title: "Paper and brush",
+      bag: "Meaning",
+      text: "God gives paper and a brush. The sky will not explain itself. A flower is beautiful and empty of commodity-meaning. A house is full of meaning and often has no beauty. Life relies on how we create meaning. Quantity perishes. Do not film a TED talk. Film the blank page in a child’s hands.",
+    },
     {
       title: "Particular vs nearest",
       bag: "How we talk",
