@@ -155,15 +155,22 @@
     skits() {
       return `
         <h2 class="section-h">Skits — as funny as we can make it</h2>
-        <p class="lede">Alternate the surreal and the felt-experience with bunk-room bits. The laugh is not a commercial break from the witness. Mother told us to laugh. More voice memos can land here.</p>
-        <div class="seeds">
+        <p class="lede">Alternate the surreal and the felt-experience with bunk-room bits. The laugh is not a commercial break from the witness. Mother told us to laugh. Episode 7 plays some of these. More voice memos can land here.</p>
+        <div class="skit-list">
           ${(SHOW.skits || [])
             .map(
               (s) => `
-            <article class="seed">
+            <article class="seed skit">
               <p class="seed-bag">${esc(s.bag)}</p>
               <h3>${esc(s.title)}</h3>
               <p>${esc(s.text)}</p>
+              ${
+                Array.isArray(s.lines) && s.lines.length
+                  ? `<ul class="lines skit-lines">${s.lines
+                      .map((l) => `<li><div class="who">${esc(l.who)}</div><p class="text">${esc(l.text)}</p></li>`)
+                      .join("")}</ul>`
+                  : ""
+              }
             </article>`
             )
             .join("")}
@@ -322,7 +329,7 @@
   let panelIndex = 0;
 
   function episodeList() {
-    return [SHOW.episode1, SHOW.episode2, SHOW.episode3, SHOW.episode4, SHOW.episode5, SHOW.episode6].filter(Boolean);
+    return [SHOW.episode1, SHOW.episode2, SHOW.episode3, SHOW.episode4, SHOW.episode5, SHOW.episode6, SHOW.episode7].filter(Boolean);
   }
 
   function bindWatch() {

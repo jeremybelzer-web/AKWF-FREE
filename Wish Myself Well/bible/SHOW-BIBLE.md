@@ -110,6 +110,10 @@ Anu will not explain the sky. Flower: beauty, no meaning. Penthouse: meaning, no
 
 Obsessed with should: a type of madness. Rope on the path — fearlessness is coming back with a flashlight. Room 330: closet, tote, do not editorialize. Nima’s laptop in the toilet. Newness dies at the opening. Extra worries. Impressing a two-way glass. Kids already doing experience.
 
+## Episode 7 — Other People’s Teeth
+
+Comedy hour. Mouth guard / other people’s teeth. Date with swamis. Bathroom laugh (punchline withheld). Telekinesis ghost. Ramanandji’s perfect stripe out a window. Cave coach next season. Then the lake. The laugh is the witness. Full scripts live on the Skits tab. More voice memos welcome.
+
 ## Episode 6 — Even Sickness
 
 Possessions as hope-constructs. Marketing weather. A gold watch and a fever. Billboard dark: some thoughts change, the cycle does not. Temporary happiness, then discontent. Mira drinks the vial too.

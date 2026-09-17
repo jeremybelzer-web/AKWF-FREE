@@ -460,7 +460,13 @@ label.field {
   border-left: 2px solid var(--gold);
   padding-left: 10px;
 }
-.song-grid { margin-bottom: 12px; }
+.skit-list {
+  display: grid;
+  gap: 18px;
+  max-width: 72ch;
+}
+.skit-lines { margin-top: 14px; }
+.skit { padding-bottom: 20px; }
 .craft-grid { margin-bottom: 36px; }
 
 .world-grid, .bible-grid {
