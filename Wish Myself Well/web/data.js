@@ -2132,7 +2132,7 @@ const SHOW = {
         slug: "EXT. ANOTHER CITY — MOST OF THE YEAR",
         camera: "Travel without glamour. Two phones. The listing is elsewhere. Do not make her an influencer. She is a person with a backpack.",
         image: "images/wmw-e11-01.png",
-        felt: "I have been traveling most of the year for the past few years. The azulejo apartment in Lisbon is on AirBnB, 30 days or more. Paulo the porteiro has known for five years. The calendar is the charm. If it stays full she is safe. She is not in the building.",
+        felt: "I have been traveling most of the year for the past few years. The azulejo apartment in Lisbon is listed 30 days or more. Paulo the porteiro has known for five years. The calendar is the charm. If it stays full she is safe. She is not in the building.",
         lines: [
           { who: "Lark", text: "AirBnB. Thirty days or more. Paulo knows." },
           { who: "A guest (elsewhere)", text: "The lockbox worked." },
