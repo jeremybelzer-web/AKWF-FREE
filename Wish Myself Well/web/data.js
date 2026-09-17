@@ -19,7 +19,7 @@ const SHOW = {
     meaning:
       "Life itself has no inherent meaning. It simply exists as a pervading presence. God gives a paper and a brush. Sky, sunset, sunrise, flower: beauty, not necessarily meaning. Gadgets and houses: commodities — meaning, not necessarily beauty. Life relies on how we create meaning. Not the quantity we acquire. Quality. Quantity perishes. Quality does not.",
     samsara:
-      "The disease of birth and death is this: temporary happiness, then deep discontent. Humanity is obsessed with what should be — a type of madness. New things lose their newness the moment the package opens. Each purchase buys an extra worry: break, scratch, theft. Objects demand maintenance. We buy to impress people who are busy impressing us. Happiness leans on experience, not the thing.",
+      "The disease of birth and death is this: the birth of a temporary happiness, then deep discontent. Material possessions sell hope and joy; they are human-made constructs. People think more money means even sickness will avoid you. Marketing is the weather that keeps that thought raining. Take the ad away and the body still gets ill. The cycle does not care about the vial.",
   },
   rules: [
     "No absolute good or evil. Even a murderer loves their child. Grey only.",
@@ -891,6 +891,19 @@ const SHOW = {
       note: "Do not explain the harnesses. Grey. The return is the action.",
     },
     {
+      title: "Even Sickness",
+      who: "Mira / Oren / Anu",
+      status: "workshop",
+      device: "Opposite-device",
+      hook: "They said if I had enough, even sickness would walk around me.",
+      verses: [
+        "Hope in a vial. Joy in a construct.",
+        "Would the thought still hold if the billboard went dark.",
+        "Temporary happiness, then the old thirst. That is the cycle. That is the disease.",
+      ],
+      note: "Do not name the brand. Film the fever next to the gold watch.",
+    },
+    {
       title: "Mother Told Us to Laugh",
       who: "The Six / Anu’s courtyard",
       status: "live",
@@ -1525,9 +1538,102 @@ const SHOW = {
     ],
   },
 
+  episode6: {
+    id: "e06",
+    code: "2892.06",
+    title: "Even Sickness",
+    logline:
+      "Possessions sell hope. Marketing is the weather. A man with a gold watch still has a fever. Take the billboard down: the thought may change; the cycle does not. Temporary happiness, then discontent. That is the disease of birth and death.",
+    note: "Samsara as a clinic hour. Grey. Mira is not a villain. The ad is not a devil. Both are wishing themselves well.",
+    panels: [
+      {
+        n: 1,
+        slug: "EXT. CITY / LONGEVITY BILLBOARD — NIGHT RAIN",
+        camera:
+          "The ad is larger than the people. Blur the slogan. A cough in the crowd is the cut.",
+        image: "images/wmw-e6-01.png",
+        felt: "Material possessions are seen as giving us hope and joy. They are human-made constructs. Marketing is the weather. Would these perceptions change if the board went dark. The rain does not wait for the answer.",
+        lines: [
+          { who: "A passerby", text: "If I had that." },
+          { who: "Another", text: "You’d still get wet." },
+          { who: "2892 (under)", text: "Hope. In a bottle." },
+        ],
+      },
+      {
+        n: 2,
+        slug: "INT. PROMPT BUREAU — SAME NIGHT",
+        camera:
+          "Dashboard as a storefront. Pain-body weather over a product. Intervention or inventory.",
+        image: "images/wmw-panel-06.png",
+        felt: "Oren can see the spike: fear of illness, then the cart. The construct is working. His boss does not need the philosophy. Both is a number they can sell. Reflect on marketing: the Lens is also an ad.",
+        lines: [
+          { who: "Oren", text: "Fear of sickness. Then they add the vial." },
+          { who: "Boss", text: "Would they still, without the board." },
+          { who: "Oren", text: "I don’t know. I can run it dark for a week." },
+          { who: "Boss", text: "Don’t." },
+        ],
+      },
+      {
+        n: 3,
+        slug: "INT. MIRA’S CLINIC — DAY",
+        camera:
+          "Gold watch. Paper on the table. Fever. The vial is kind. Do not hiss at her.",
+        image: "images/wmw-e6-02.png",
+        felt: "People think if you have more money you are safe: even sickness will avoid you. He has the tokens. He has the ring. The body did not read the ad. Mira is selling time to a man who wanted immunity from being a body.",
+        lines: [
+          { who: "Patient", text: "I did everything. I have more than I need." },
+          { who: "Mira", text: "Rich means that. It does not mean this." },
+          { who: "Patient", text: "So what is the vial for." },
+          { who: "Mira", text: "Hope. I drink it too." },
+        ],
+      },
+      {
+        n: 4,
+        slug: "INT. CLINIC LOUNGE — AFTER THE SIP",
+        camera:
+          "The high. Then the face falling. Temporary happiness as a physiological event. Hold both.",
+        image: "images/wmw-panel-05.png",
+        felt: "What is the cycle of samsara. The disease of birth and death. It is the birth of this temporary happiness followed by deep discontentment. The lounge is full of people sipping. Each sip is a little birth. Each lull is a little death. Mira feels it in herself and still pours.",
+        lines: [
+          { who: "Patient", text: "I feel it." },
+          { who: "Mira", text: "It will go." },
+          { who: "Patient", text: "Then I’ll come back." },
+          { who: "Mira", text: "That’s the product." },
+        ],
+      },
+      {
+        n: 5,
+        slug: "EXT. ANU’S COURTYARD — THE BOARD IS OFF",
+        camera:
+          "No slogan. Sky from Episode 4. Kids. Would the perception change. They never had it.",
+        image: "images/wmw-e4-01.png",
+        felt: "Without the marketing, some thoughts get quieter. The body still ages. The kids were never in the market. Riven wants a week of dark boards as tapas. Anu will not let him make a practice out of other people’s ads.",
+        lines: [
+          { who: "Riven", text: "If we turned the boards off—" },
+          { who: "Anu", text: "Your fever would still come." },
+          { who: "Moss", text: "What’s a board." },
+          { who: "Anu", text: "A should, very large." },
+        ],
+      },
+      {
+        n: 6,
+        slug: "EXT. PUDDLE / KNEE — NIGHT",
+        camera:
+          "Circle as if cities were ending. Knee equal to God. No vial. Already rich.",
+        image: "images/wmw-panel-08.png",
+        felt: "The cycle does not stop for Biju because he is not in it as a customer. Temporary happiness, discontent — weather. The witness does not plot. He has more than he needs: a knee, a puddle, a cough he does not bargain with.",
+        lines: [
+          { who: "Biju", text: "—" },
+          { who: "A cough", text: "—" },
+          { who: "Channel 2892 (end card)", text: "WISH MYSELF WELL" },
+        ],
+      },
+    ],
+  },
+
   world: {
     time: "A little after the dollar stopped being the default stored value. Tokens are ordinary. AI is accepted. Robots are furniture. The moon is a commute for work crews; the nearest planet is a rich person’s weekend. Trash-eating, plastic-eating, oil-eating bacteria took the edge off the old inhabitable-earth panic. Iron can be spun from pollutants in the air. The biggest breakthrough is not that. The biggest breakthrough is inside, and it has the ratings.",
-    money: "Decentralized stored value is the standard. Alt-coins already run AI agents. Governments still rank — maybe starker, maybe not. Tax teams, law teams, emotional-upholding teams, mental-upholding teams all still wish their team well.",
+    money: "Decentralized stored value is the standard. Alt-coins already run AI agents. Governments still rank — maybe starker, maybe not. People still think more money means even sickness will avoid them. Marketing is the weather that sells that hope. The body does not read the ad.",
     body: "2006: many switches, a cell can become stem. Later: fewer switches to keep a cell young. People inject or drink their health. Factions of youth, and people who would control them, believe we can live forever.",
     lens: "Subtle VR contacts and glasses. A 3D / 4D / more-D chart of a person: body, mind, feeling, relation, work, influence, love, seva — and time. Pain-body as weather. The witness does not plot. Orgs use it to help, to sell, to steer. Prompts to AI are the floodgate they all need and cannot quite clean.",
     entertainment:
@@ -1680,8 +1786,8 @@ const SHOW = {
     },
     {
       title: "Samsara of the package",
-      bag: "World",
-      text: "Humanity is obsessed with what should be — a type of madness. Newness dies at the opening. Each purchase is a new target for breaking, scratching, theft. Happiness leans on experience, not the object. Episode 5. The next memo still owes: money as a charm against sickness.",
+      bag: "World · 2892.06",
+      text: "Possessions sell hope and joy: human-made constructs. More money, even sickness will avoid you — until the fever. Marketing: would the perception change if the board went dark. Cycle of samsara: birth of temporary happiness, then deep discontent. That is the disease of birth and death. Episode 6. Mira drinks the vial too.",
     },
     {
       title: "Stay a little curious",
@@ -1758,6 +1864,11 @@ const SHOW = {
       title: "The extra worry",
       bag: "Objects",
       text: "Every purchase is a pet. Break, scratch, theft, updates. The store sings. Home is already old. Impressing is a two-way glass: nobody is looking. Film the toilet laptop. Then clap.",
+    },
+    {
+      title: "Even sickness",
+      bag: "Samsara",
+      text: "Hope in a construct. Money as a charm against illness. Run the billboard dark for a week — some thoughts quiet, the fever does not. Temporary happiness, then discontent. Film the gold watch next to the paper sheet. Mira is not a devil. She drinks it too.",
     },
     {
       title: "Paper and brush",

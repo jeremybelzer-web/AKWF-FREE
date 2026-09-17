@@ -110,6 +110,10 @@ Anu will not explain the sky. Flower: beauty, no meaning. Penthouse: meaning, no
 
 Obsessed with should: a type of madness. Rope on the path — fearlessness is coming back with a flashlight. Room 330: closet, tote, do not editorialize. Nima’s laptop in the toilet. Newness dies at the opening. Extra worries. Impressing a two-way glass. Kids already doing experience.
 
+## Episode 6 — Even Sickness
+
+Possessions as hope-constructs. Marketing weather. A gold watch and a fever. Billboard dark: some thoughts change, the cycle does not. Temporary happiness, then discontent. Mira drinks the vial too.
+
 ## Meaning, objects, samsara
 
 - Life has no inherent meaning. It simply exists as a pervading presence.
@@ -121,7 +125,8 @@ Obsessed with should: a type of madness. Rope on the path — fearlessness is co
 - Newness dies when the package opens. Each purchase is another worry (break, scratch, theft). Nima loses a laptop, calls police, finds it in the toilet.
 - Room 330: harnesses in the closet, treats by the window. A rope you run from, then come back to with a flashlight — that is fearlessness.
 - We buy to impress people who are busy impressing us. Looks-worry in the clinic glass. Happiness leans on experience, not the thing.
-- People think more money means even sickness will avoid you. Samsara is temporary happiness followed by discontent.
+- People think more money means even sickness will avoid you. Marketing keeps that raining. Take the board down: the body still gets ill.
+- Samsara is the birth of temporary happiness followed by deep discontent. That is the disease of birth and death.
 
 ## Later seeds
 

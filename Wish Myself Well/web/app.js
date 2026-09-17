@@ -322,7 +322,7 @@
   let panelIndex = 0;
 
   function episodeList() {
-    return [SHOW.episode1, SHOW.episode2, SHOW.episode3, SHOW.episode4, SHOW.episode5].filter(Boolean);
+    return [SHOW.episode1, SHOW.episode2, SHOW.episode3, SHOW.episode4, SHOW.episode5, SHOW.episode6].filter(Boolean);
   }
 
   function bindWatch() {
