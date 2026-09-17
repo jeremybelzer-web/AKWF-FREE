@@ -88,7 +88,7 @@ Stranger-Things-sized, online and in person, around the world. Follow them like 
 1. **Riven** — scheduler, 47, the app, shame, terrified to be born, lifetime of wasted talents
 2. **Styro Pell** — hits, then styrofoam AC gaskets. How you do anything is how you do everything
 3. **Dr. Saffi Okonkwo** — heart surgeon in a sports car. Not Riven’s moral.
-4. **Kira Voss** — will not hide the guru. Awkward, neurotic, roommates voting her out, aging dog, no money. Strangely inspiring.
+4. **Kira Voss** — will not hide the guru. Awkward, neurotic, divergent. Roommates voting her out, aging dog, no money. Used to rejection, hunting community, strangely inspiring. Episode 9 is her hour.
 5. **Dev Nair** — panic is perfect; eat the mangoes; butler of tomorrow-self; knowing and liking
 6. **Wren Solis** — never close enough; opposite-device; stargazer
 
@@ -131,6 +131,10 @@ Comedy hour. Mouth guard / other people’s teeth. Date with swamis. Bathroom la
 ## Episode 8 — Also Watching
 
 The episode is people watching the episode. Nix sees himself on 2892 and prompts understanding. Vell asks for the rag. Ayo’s table is set for six. Gwen attends community. Juniper and Moss: they’re all looking at the same puddle. Anu, courtyard of windows: same show, one family.
+
+## Episode 9 — Hide the Guru
+
+Kira’s hour. Awkward, neurotic, divergent. The vote. The aging dog. The bills. Satsang: why do I have to hide my guru, hide God, hide myself. Empty playground: why is my presence not okay. First week in white, almost left, then followed. Happy, guilty, destroyed it. You’re a little different and that’s okay. Ramanandji said stay focused on the goal. The walk where he actually makes time is still coming.
 
 ## Meaning, objects, samsara
 

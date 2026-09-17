@@ -76,7 +76,7 @@
     people() {
       return `
         <h2 class="section-h">People we follow</h2>
-        <p class="lede">GoT banners, a Friends courtyard, Anne’s weather, Bluey’s kids, and The Six — a Stranger-Things-sized songwriter circle. Ramanandji is the one who actually made time. Lark’s Lisbon doorway is the grey listing. Nix and Vell are prompt addicts of different hungers. Ayo and Gwen are high achievers, mostly alone, forced to group. Desire to be someone drives all of them. Shame turns the volume up. They are also watching.</p>
+        <p class="lede">GoT banners, a Friends courtyard, Anne’s weather, Bluey’s kids, and The Six. Kira will not hide the guru; the situations are actually too much. Ramanandji is the one who actually made time. Lark’s Lisbon doorway is the grey listing. Nix and Vell are prompt addicts of different hungers. Ayo and Gwen are high achievers, mostly alone, forced to group. Desire to be someone drives all of them. Shame turns the volume up. They are also watching.</p>
         <div class="grid-people">
           ${SHOW.characters.map(card).join("")}
         </div>
@@ -330,7 +330,7 @@
   let panelIndex = 0;
 
   function episodeList() {
-    return [SHOW.episode1, SHOW.episode2, SHOW.episode3, SHOW.episode4, SHOW.episode5, SHOW.episode6, SHOW.episode7, SHOW.episode8].filter(Boolean);
+    return [SHOW.episode1, SHOW.episode2, SHOW.episode3, SHOW.episode4, SHOW.episode5, SHOW.episode6, SHOW.episode7, SHOW.episode8, SHOW.episode9].filter(Boolean);
   }
 
   function alsoWatchingFor(i) {
