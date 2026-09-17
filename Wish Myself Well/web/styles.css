@@ -390,6 +390,79 @@ label.field {
 .seed h3 { font-family: var(--serif); margin: 0 0 8px; font-size: 22px; }
 .seed p { margin: 0; font-family: var(--serif); font-size: 15px; color: var(--ink-soft); }
 
+.six-hero {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr;
+  gap: 28px;
+  margin-bottom: 28px;
+  align-items: stretch;
+}
+.six-roster {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 10px;
+  margin: 0 0 36px;
+}
+.six-chip {
+  display: grid;
+  grid-template-columns: 56px 1fr;
+  gap: 10px;
+  align-items: center;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  padding: 8px;
+  text-decoration: none;
+  color: inherit;
+}
+.six-chip img {
+  width: 56px;
+  height: 56px;
+  object-fit: cover;
+  border-radius: 4px;
+  background: #222;
+}
+.six-chip b {
+  display: block;
+  font-family: var(--serif);
+  font-size: 16px;
+  font-weight: 600;
+}
+.six-chip i {
+  display: block;
+  font-style: normal;
+  font-family: var(--mono);
+  font-size: 10px;
+  letter-spacing: 0.04em;
+  color: var(--saffron);
+  text-transform: uppercase;
+}
+.device {
+  font-family: var(--mono);
+  font-size: 10px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--dusk);
+  margin: 0 0 8px !important;
+}
+.verses {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 12px;
+  display: grid;
+  gap: 6px;
+}
+.verses li {
+  font-family: var(--serif);
+  font-size: 15px;
+  font-style: italic;
+  color: var(--ink);
+  border-left: 2px solid var(--gold);
+  padding-left: 10px;
+}
+.song-grid { margin-bottom: 12px; }
+.craft-grid { margin-bottom: 36px; }
+
 .world-grid, .bible-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -408,7 +481,7 @@ label.field {
 .bible-grid li { margin: 0 0 10px; }
 
 @media (max-width: 980px) {
-  .top, .hero, .board, .lens-wrap, .world-grid, .bible-grid {
+  .top, .hero, .board, .lens-wrap, .world-grid, .bible-grid, .six-hero {
     grid-template-columns: 1fr;
     display: grid;
   }

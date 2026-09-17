@@ -73,16 +73,34 @@ Ashrams, cave and jungle retreats, karma-yoga teams (most useful, most rewarding
 
 ## The Six (songwriter circle)
 
-Stranger-Things-sized, online and in person, around the world:
+Stranger-Things-sized, online and in person, around the world. Follow them like a party of six, not a festival bill.
 
-1. **Riven** — scheduler, 47, the app, shame, terrified to be born
+1. **Riven** — scheduler, 47, the app, shame, terrified to be born, lifetime of wasted talents
 2. **Styro Pell** — hits, then styrofoam AC gaskets. How you do anything is how you do everything
-3. **Dr. Saffi Okonkwo** — heart surgeon in a sports car
-4. **Kira Voss** — will not hide the guru
-5. **Dev Nair** — panic is perfect; eat the mangoes; butler of tomorrow-self
-6. **Wren Solis** — never close enough; opposite-device
+3. **Dr. Saffi Okonkwo** — heart surgeon in a sports car. Not Riven’s moral.
+4. **Kira Voss** — will not hide the guru. Awkward, neurotic, roommates voting her out, aging dog, no money. Strangely inspiring.
+5. **Dev Nair** — panic is perfect; eat the mangoes; butler of tomorrow-self; knowing and liking
+6. **Wren Solis** — never close enough; opposite-device; stargazer
 
-Lyric craft: specific + general. Do not copy Cohen / Smith / Bright Eyes sentences. Steal the *device*. Channel 2892 is a musical whether it admits it. Songs live in the comic’s Songs tab.
+Adjacent, not in the band:
+
+- **Ramanandji** — yellow robes. Kira was sure nobody would make time. He did. Stay focused on the goal. Grey stripe a little too perfect.
+- **Lark Quinn** — Lisbon 30-day listing, super knew, landlord at the door, IN LEGAL, guest Monday. Grey. Wizard of Unhappiness / Almost.
+
+### Lyric craft (Songs tab)
+
+- Specific + general. Steal the *device* from Cohen / Smith / Oberst / Montgomery / Lowe / Bukowski / Modest Mouse / Joel. Never their sentences.
+- Opposite-device (show the thing by its opposite).
+- Four-source mashup, then two snapshots syllable-fit to the melody.
+- Have you ever had a friend who… (qualities as situations).
+- Line-break weather. Crowd-mirror. Nature beats the villain.
+- **Do not paste** other artists’ lyrics, hymn translations, or novel pastiches. *Voices of Tomorrow* and *The Sweetness of Doing Nothing* are original.
+
+Episode 3 — **How You Do Anything** — is their workshop hour.
+
+## Episode 3 — How You Do Anything
+
+The Six on a worldwide call. Styro’s gasket. Kira’s vote / Hide the Guru. Ramanandji makes time. Dev eats the mango. Wren on the bus. Saffi in the car. Lark’s Lisbon doorway.
 
 ## Meaning, objects, samsara
 

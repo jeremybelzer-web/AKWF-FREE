@@ -31,7 +31,7 @@
 
   const views = {
     watch() {
-      const eps = [SHOW.episode1, SHOW.episode2].filter(Boolean);
+      const eps = episodeList();
       const ep = eps[epIndex] || eps[0];
       return `
         <section class="hero">
@@ -74,7 +74,7 @@
     people() {
       return `
         <h2 class="section-h">People we follow</h2>
-        <p class="lede">GoT banners, a Friends courtyard, Anne’s weather, Bluey’s kids, and The Six — a Stranger-Things-sized songwriter circle. Desire to be someone — spiritually, sexually, monetarily, experientially, societally — drives all of them. Shame turns the volume up.</p>
+        <p class="lede">GoT banners, a Friends courtyard, Anne’s weather, Bluey’s kids, and The Six — a Stranger-Things-sized songwriter circle. Ramanandji is the one who actually made time. Lark’s Lisbon doorway is the grey listing. Desire to be someone drives all of them. Shame turns the volume up.</p>
         <div class="grid-people">
           ${SHOW.characters.map(card).join("")}
         </div>
@@ -82,18 +82,68 @@
     },
 
     songs() {
+      const six = SHOW.theSix || {};
+      const members = (six.members || [])
+        .map((id) => SHOW.characters.find((c) => c.id === id))
+        .filter(Boolean);
+      const statusLabel = { live: "singing it", workshop: "in the room", hook: "hook only", cut: "on the floor" };
       return `
-        <h2 class="section-h">Songs The Six are writing</h2>
-        <p class="lede">Study how the masters are both specific and general — then write original sentences. The personal experience that is the most universal. Channel 2892 is a musical whether it admits it.</p>
-        <div class="seeds">
-          ${(SHOW.songs || [])
+        <section class="six-hero">
+          <figure class="hero-still">
+            <img src="${esc(six.still || "images/wmw-six-call.png")}" alt="The Six on a worldwide call" />
+          </figure>
+          <div class="hero-copy">
+            <p class="ch">The Six · songwriter circle</p>
+            <h2>${esc(six.title || "The Six")}</h2>
+            <p class="lede">${esc(six.meet || "")}</p>
+            <p class="mini">${esc(six.rule || "")}</p>
+          </div>
+        </section>
+        <div class="six-roster">
+          ${members
+            .map(
+              (c) => `
+            <a class="six-chip" href="#people">
+              <img src="${esc(c.image)}" alt="" />
+              <span>
+                <b>${esc(c.name)}</b>
+                <i>${esc(c.role)}</i>
+              </span>
+            </a>`
+            )
+            .join("")}
+        </div>
+        <h2 class="section-h">Craft they steal — never the sentences</h2>
+        <p class="lede">Study how the masters are both specific and general. Devices to describe the very hard-to-describe personal experience which is the most universal. Original lines only.</p>
+        <div class="seeds craft-grid">
+          ${(SHOW.craft || [])
             .map(
               (s) => `
             <article class="seed">
-              <p class="seed-bag">${esc(s.who)}</p>
+              <p class="seed-bag">${esc(s.bag)}</p>
               <h3>${esc(s.title)}</h3>
+              <p>${esc(s.text)}</p>
+            </article>`
+            )
+            .join("")}
+        </div>
+        <h2 class="section-h">On the table this week</h2>
+        <p class="lede">Filter by the room: live, workshop, hook, cut. Channel 2892 is a musical whether it admits it.</p>
+        <div class="seeds song-grid">
+          ${(SHOW.songs || [])
+            .map(
+              (s) => `
+            <article class="seed song">
+              <p class="seed-bag">${esc(s.who)}${s.status ? " · " + esc(statusLabel[s.status] || s.status) : ""}</p>
+              <h3>${esc(s.title)}</h3>
+              ${s.device ? `<p class="device">${esc(s.device)}</p>` : ""}
               <p class="quote">${esc(s.hook)}</p>
-              <p>${esc(s.note)}</p>
+              ${
+                Array.isArray(s.verses) && s.verses.length
+                  ? `<ul class="verses">${s.verses.map((v) => `<li>${esc(v)}</li>`).join("")}</ul>`
+                  : ""
+              }
+              <p>${esc(s.note || "")}</p>
             </article>`
             )
             .join("")}
@@ -269,7 +319,7 @@
   let panelIndex = 0;
 
   function episodeList() {
-    return [SHOW.episode1, SHOW.episode2].filter(Boolean);
+    return [SHOW.episode1, SHOW.episode2, SHOW.episode3].filter(Boolean);
   }
 
   function bindWatch() {

@@ -11,10 +11,11 @@ python3 -m http.server 8765
 
 Then visit `http://localhost:8765`.
 
-- **Watch** — Episode 1, `Crazy Loser (kidding)`, cinematic stills + felt-experience captions
-- **People** — ensemble (Riven at 47, the scheduler; Mother Anu; Biju; The Well; kids; grey ashram; etc.)
+- **Watch** — Episodes 1–3 (`Crazy Loser (kidding)`, `What Will Happen This Week`, `How You Do Anything`)
+- **People** — ensemble, including The Six, Ramanandji, Lark’s Lisbon listing
+- **Songs** — The Six’s workshop: original hooks, verses, craft devices. No other artists’ lyrics.
 - **The Lens** — 3D/4D chart of body, mind, feeling, relation, work, influence, love, seva; pain-body weather; witness as the unplotted center
-- **World / Seeds / Bible** — the future that already happened, later episode cards, rules
+- **World / Engines / Seeds / Bible** — the future that already happened, manifesto-as-scene, later episode cards, rules
 
 Arrow keys (and space) move the episode.
 
