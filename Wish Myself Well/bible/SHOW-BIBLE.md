@@ -95,7 +95,7 @@ Stranger-Things-sized, online and in person, around the world. Follow them like 
 Adjacent, not in the band:
 
 - **Ramanandji** — yellow robes. Kira was sure nobody would make time. He did. Stay focused on the goal. Episode 10 is that hour. Grey stripe a little too perfect — another episode.
-- **Lark Quinn** — Lisbon 30-day listing, super knew, landlord at the door, IN LEGAL, guest Monday. Grey. Wizard of Unhappiness / Almost.
+- **Lark Quinn** — Lisbon, not Brooklyn. 30-day listing, Paulo knew, Nuno at the door, IN LEGAL, guest Monday. Loja do Cidadão cannot help until there is a case. Grey. Wizard of Unhappiness / Almost. Episode 11.
 
 ### Lyric craft (Songs tab)
 
@@ -139,6 +139,10 @@ Kira’s hour. Awkward, neurotic, divergent. The vote. The aging dog. The bills.
 ## Episode 10 — And He Did
 
 If you could just ask them: she guarantees they will not. Ramanandji might. Yellow robes. He does. Walks the wall. Sits down. Helps her widen. Stay focused on the goal. Not impressive. Attention as the wise way. The grey stripe is another episode.
+
+## Episode 11 — IN LEGAL
+
+Lisbon, not Brooklyn. Travel most of the year. 30 days or more. Paulo the porteiro knew. Nuno asks for the reservation; the guest says no. Click-pay: IN LEGAL. No notice. Guest Monday. Loja do Cidadão, 9–5: you probably will not get representation until there is a process. What should I do. The show is not legal aid. Somewhat shady, not a heist.
 
 ## Meaning, objects, samsara
 
