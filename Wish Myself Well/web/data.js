@@ -29,6 +29,7 @@ const SHOW = {
     "Kids have underdeveloped egos. Their innocence is the reminder under me-and-mine.",
     "The enlightened are natural, like babies. They are not impressive.",
     "Mother told us to laugh at this ignorance. We keep forgetting.",
+    "As funny as we can make it. Alternate the surreal/experiential with bunk-room skits. The laugh is not a relief from the witness. It is the witness.",
   ],
 
   lensAxes: [
@@ -663,6 +664,59 @@ const SHOW = {
       title: "Stay a little curious",
       bag: "Dev / Riven",
       text: "Self-talk that is grateful, loving, thankful, and always — even dragged through the darkest hellscape — a little curious. Catastrophizing births bigger problems. Knowing and liking is the cure he keeps scheduling and missing.",
+    },
+  ],
+
+  skits: [
+    {
+      title: "Other people’s teeth",
+      bag: "Bunk",
+      text: "Can’t find my mouth guard. Weird stuff when I’m sleep-deprived. Find it. I grind really bad. Second guy: I used to be worse. A mouth guard didn’t cover it. I was grinding other people’s teeth. Sleepwalk, grab a jaw, grind theirs for them.",
+    },
+    {
+      title: "Date with some swamis",
+      bag: "Ashram",
+      text: "If all goes well, by the end of the night they won’t be swamis anymore. Flirting. That’s what Amma made me fat — doesn’t work. Swamiji runs down the hall.",
+    },
+    {
+      title: "Bathroom laugh",
+      bag: "Dorm",
+      text: "A guy enters a crowded dorm bathroom, laughs in surprise, comes out, will not say why. The audience-character hunts it. He eventually gives it up.",
+    },
+    {
+      title: "Telekinesis ghost",
+      bag: "Siddhi",
+      text: "A dude learns telekinesis, pranks his friend, calls it a ghost with a sick sense of humor. Friend falls in love with the ghost’s invented life. Reveal: I have a siddhi. Friend: me too, I can talk to the living — because he’s a ghost. Isn’t that hilarious?",
+    },
+    {
+      title: "Grey stripe",
+      bag: "Ramanand",
+      text: "Dyes a grey stripe, adds crow’s feet, gets found out, will not admit it. Aren’t you in your 30s? Plenty of people… but a perfect stripe? Dives out the window. Another part of India.",
+    },
+    {
+      title: "Apology notes",
+      bag: "People-pleaser",
+      text: "Coaching the hot-head. Mixes up all the apology notes (ADHD). Dave scratches off the name and puts his own. Original artist to the teacher: can we agree this is not a Fife?",
+    },
+    {
+      title: "Frozen slab",
+      bag: "Seva",
+      text: "Pulling a body off a frozen slab. Cheesecloth stuck. Getting the fort up there. There’s gotta be a better way.",
+    },
+    {
+      title: "Next season, coach",
+      bag: "Freak callback",
+      text: "The soccer coach from the cave shows up next season: I’ve got a lot of new ideas that are gonna swing it for us. Everyone stares.",
+    },
+    {
+      title: "Disgruntled library",
+      bag: "Too close",
+      text: "A devotee donating all the guru’s books. Hits a bit too close to home. Play it grey, not mean.",
+    },
+    {
+      title: "Wait, smell this",
+      bag: "Band / Metali & Milind",
+      text: "Eternity / Just Go With It / Dick. Wait smell this dude. This actually smells like dick. Nobody’s gonna buy that. They’ll buy it.",
     },
   ],
 };

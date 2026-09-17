@@ -2,7 +2,7 @@
   const app = document.getElementById("app");
   const nav = document.querySelectorAll(".nav a");
 
-  const routes = ["watch", "people", "songs", "lens", "world", "seeds", "bible"];
+  const routes = ["watch", "people", "songs", "skits", "lens", "world", "seeds", "bible"];
 
   function route() {
     const hash = (location.hash || "#watch").slice(1).split("/")[0];
@@ -84,6 +84,25 @@
               <h3>${esc(s.title)}</h3>
               <p class="quote">${esc(s.hook)}</p>
               <p>${esc(s.note)}</p>
+            </article>`
+            )
+            .join("")}
+        </div>
+      `;
+    },
+
+    skits() {
+      return `
+        <h2 class="section-h">Skits — as funny as we can make it</h2>
+        <p class="lede">Alternate the surreal and the felt-experience with bunk-room bits. The laugh is not a commercial break from the witness. Mother told us to laugh. More voice memos can land here.</p>
+        <div class="seeds">
+          ${(SHOW.skits || [])
+            .map(
+              (s) => `
+            <article class="seed">
+              <p class="seed-bag">${esc(s.bag)}</p>
+              <h3>${esc(s.title)}</h3>
+              <p>${esc(s.text)}</p>
             </article>`
             )
             .join("")}
