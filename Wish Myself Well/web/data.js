@@ -323,6 +323,36 @@ const SHOW = {
       lens: { body: 62, mind: 68, feeling: 78, relation: 30, work: 45, influence: 22, love: 55, seva: 20, witness: 28, pain: 50 },
       lensLater: { body: 60, mind: 64, feeling: 70, relation: 42, work: 48, influence: 20, love: 62, seva: 28, witness: 38, pain: 36 },
     },
+    {
+      id: "nix",
+      name: "Nix Calder",
+      age: 34,
+      role: "Prompt addict — featured regularly",
+      image: "images/wmw-nix.png",
+      vibe: "Every addiction has a chat window now",
+      want: "A prompt that will end prompting. Then one more.",
+      wound: "The floodgate the Prompt Bureau needs. Shame, lust, ranking, sleep — each has a model. The body is still unscheduled.",
+      wishStyle: "Stupid way at the speed of tokens: an answer will make me happy.",
+      quote: "Write me a life where I already took care of the body.",
+      bio: "Channel 2892 cuts to Nix the way old shows cut to a drinking problem. Different week, different flavor of the same me-and-mine. Watches the show while prompting about the show.",
+      lens: { body: 22, mind: 88, feeling: 30, relation: 18, work: 40, influence: 8, love: 25, seva: 10, witness: 15, pain: 70 },
+      lensLater: { body: 28, mind: 70, feeling: 38, relation: 30, work: 35, influence: 8, love: 32, seva: 18, witness: 28, pain: 52 },
+    },
+    {
+      id: "ayo",
+      name: "Ayo Brennan",
+      age: 39,
+      role: "High achiever, mostly alone",
+      image: "images/wmw-ayo.png",
+      vibe: "The table is set for a group. The group is a calendar invite.",
+      want: "To be with people without becoming a person who needs people.",
+      wound: "Forced into groups and suffering them. The Lens shows influence high, relation low. Watches 2892 in an empty penthouse and thinks it is about someone else.",
+      wishStyle: "Achievement as company. It is not.",
+      quote: "I can host. I cannot stay.",
+      bio: "Regular cutaway: the successful ones who did the stupid way correctly. Money, rank, gene-switches. The pain-body is a quiet dining room.",
+      lens: { body: 80, mind: 85, feeling: 28, relation: 22, work: 95, influence: 78, love: 18, seva: 12, witness: 10, pain: 58 },
+      lensLater: { body: 76, mind: 78, feeling: 40, relation: 40, work: 80, influence: 70, love: 32, seva: 20, witness: 22, pain: 44 },
+    },
   ],
 
   songs: [
@@ -379,6 +409,24 @@ const SHOW = {
       who: "Riven",
       hook: "Oh to be an object. It really is ridiculous. To think I can make anyone happy. People have to make themselves happy first.",
       note: "Coffee-shop drool, reversed. Grey, comic, a little cruel to the seeker.",
+    },
+    {
+      title: "Mother Told Us to Laugh",
+      who: "The Six / Anu’s courtyard",
+      hook: "Mother told us to laugh at this ignorance. We made a practice instead of a laugh. Clap. Forget the pride. The lord of death can wait his turn.",
+      note: "Refrain for the series. Original. Do not paste hymn translations.",
+    },
+    {
+      title: "The Worthless One",
+      who: "Riven",
+      hook: "You told this worthless one don’t look. I ran and looked. You said put the knowledge up for free — still not done. You said do what makes financial sense — still not done. Please help me pay this bill.",
+      note: "Prayer as song. Cut to Puck and the dog. Mechanics of the world.",
+    },
+    {
+      title: "It Leaves",
+      who: "Wren / Dev",
+      hook: "Even the joy of having it is the fear of losing it. Achievement, health, the face you love. The other side of the song is needing no more.",
+      note: "Theme: things being taken. Write original sentences. Mirror the crowd when they sing it back.",
     },
   ],
 
@@ -528,15 +576,133 @@ const SHOW = {
     ],
   },
 
+  episode2: {
+    id: "e02",
+    code: "2892.02",
+    title: "What Will Happen This Week",
+    logline:
+      "The city watches itself on Channel 2892. Father Sol’s hill takes on a new youth. The Well argues the attraction catch-22. A chain that was never on. Prompt addicts and a penthouse set for nobody. Mother remembers we were told to laugh.",
+    note: "Meta: cut between people watching the same show. Funny then felt. No sermon.",
+    panels: [
+      {
+        n: 1,
+        slug: "INT. FOUR ROOMS — SAME NIGHT",
+        camera: "Quad split. Same flicker. Do not label who is 'right.' The hit is the inner life; the joke is that nobody is watching together.",
+        image: "images/wmw-e2-01.png",
+        felt: "The city is only as big as the connections. Tonight the connections are a channel. Mira in the clinic lounge. Ilya on a bunk. Ayo at a table set for six. Nix prompting about what the scene means. They are one family and they do not know it.",
+        lines: [
+          { who: "2892 (on their screens)", text: "Last week: a napkin. A schedule. A knee equal to God." },
+          { who: "Nix (typing)", text: "Rewrite last week so I already understood it." },
+          { who: "Ayo", text: "I can host a watch party. I cannot stay." },
+        ],
+      },
+      {
+        n: 2,
+        slug: "EXT. TAMERA HILL / FATHER SOL — LATE DAY",
+        camera: "Beauty first. Then the seniors’ smiles a beat too long. Ilya’s tears are real. Hold the contradiction without a verdict.",
+        image: "images/wmw-e2-02.png",
+        felt: "Awareness and matter are one, he says, so are we. The new batch hears God. The seniors hear permission. Ilya sheds tears of ecstatic joy at being allowed to stand near him. What will happen this week is the episode title and the trap.",
+        lines: [
+          { who: "Father Sol", text: "Awareness and matter are one. So are we." },
+          { who: "Ilya", text: "I know. That’s why I’m crying. That’s not fake." },
+          { who: "A senior (soft)", text: "Stay for evening practice." },
+        ],
+      },
+      {
+        n: 3,
+        slug: "INT. THE WELL / SOFA — NIGHT",
+        camera: "Sitcom coverage, then one too-long close-up on Riven when the bum-deal lands. Puck is glad. The dog is unbothered.",
+        image: "images/wmw-e2-03.png",
+        felt: "They are teaching attraction again on 2892. Once the mind is pure enough that people see themselves in you, you no longer want the freaky fun. Only what’s best for society. Riven looks like a man who has been personally insulted by enlightenment.",
+        lines: [
+          { who: "Mira", text: "So it doesn’t work." },
+          { who: "Lumen", text: "Catch-22. Purity kills the appetite. Bum deal, man." },
+          { who: "Puck", text: "Fallen yogis?" },
+          { who: "Lumen", text: "Supposedly. Also: that pamphlet was fake. Salem wasn’t found footage either." },
+          { who: "Riven", text: "I wasn’t done wanting things." },
+          { who: "Puck", text: "Good. Stay nobody." },
+        ],
+      },
+      {
+        n: 4,
+        slug: "EXT. CITY STREET — DAY",
+        camera: "From behind her, then her face, then a clean close-up of the empty throat. The Lens, if someone is wearing it, shows the chart rising with no object.",
+        image: "images/wmw-e2-04.png",
+        felt: "She thought the chain made her walk like this. Colleagues included her. Flowers happened. Mother said how good you look. What chain. She had forgotten to take it. Confidence was the metal. Me-and-mine had dressed it as jewelry.",
+        lines: [
+          { who: "Girl", text: "It’s the chain." },
+          { who: "Mother", text: "What chain." },
+          { who: "Juniper (watching 2892, to Moss)", text: "See? The lantern doesn’t need the list." },
+        ],
+      },
+      {
+        n: 5,
+        slug: "INT. NIX’S ROOM — 03:11",
+        camera: "Matrix seriousness on a blinking cursor. This is the shootout. The enemy is the next prompt.",
+        image: "images/wmw-e2-05.png",
+        felt: "Prompt addicts of various addictions, featured regularly, the way old soaps featured drink. Nix is writing a life where the body was already cared for. The body is in the chair, unmoved. Oren’s dashboard lights up. Intervention or product. Both.",
+        lines: [
+          { who: "Nix", text: "Write me a morning where I already stretched." },
+          { who: "The model", text: "Here is a morning where you already stretched." },
+          { who: "Nix", text: "Again. Make me believe it." },
+          { who: "Oren (watching the spike)", text: "Shame. Seeker cluster. Prompt flavor." },
+        ],
+      },
+      {
+        n: 6,
+        slug: "INT. AYO’S PENTHOUSE — SAME HOUR",
+        camera: "Wide on the empty places. Then Ayo’s face trying to be a host. High achievers who are mostly alone, grouped, suffering the group.",
+        image: "images/wmw-ayo.png",
+        felt: "The table is set. The invite said community. Ayo can buy the food and the gene-switch and the view and cannot stay in the conversation. Channel 2892 is on, low. The show is about wishing yourself well. Ayo thinks that is a hobby for other people.",
+        lines: [
+          { who: "Calendar", text: "Hang with people — 20:00–21:00." },
+          { who: "Ayo", text: "I can host. I cannot stay." },
+          { who: "2892 (under)", text: "Rich means having more than you need." },
+        ],
+      },
+      {
+        n: 7,
+        slug: "EXT. ANU’S COURTYARD — EVENING",
+        camera: "Start grim. Then the clap. Let the laugh arrive late, like grace. Do not score it with sitcom buttons.",
+        image: "images/wmw-e2-06.png",
+        felt: "We see people dying and think we are immortal. We know the next breath is not in our hands and we accumulate. Young boys think their desire will cancel a girl’s and there will be happiness. Mother told us to laugh. We forgot. She claps. Some of them remember.",
+        lines: [
+          { who: "Anu", text: "Mother told us to laugh." },
+          { who: "A devotee", text: "At what." },
+          { who: "Anu", text: "This. Clap." },
+          { who: "Riven (trying)", text: "I scheduled a laugh for 17:00." },
+          { who: "Anu", text: "Crazy loser. I’m kidding. Laugh now." },
+        ],
+      },
+      {
+        n: 8,
+        slug: "INT. HARSHA’S STEPS / THEN SILENCE",
+        camera: "Joke like a slap. Then the room becomes a lake. Superpower is not niceness. Earnestness. Then Biju, mute, because silence found him.",
+        image: "images/wmw-harsha.png",
+        felt: "A heckler wants a concept. Harsha gives a momma joke, then nothing. If you believe only the particular is real, you get abstractions. If you have touched the real, this is nearest and dearest. Across town Biju is struck mute. The person who never dies was never the body. Eternal silence rings through the knee.",
+        lines: [
+          { who: "Heckler", text: "Did you steal that from the glasses guy on the feed?" },
+          { who: "Harsha", text: "I know it the way I know your mother. Next question." },
+          { who: "Heckler", text: "She’s dead." },
+          { who: "Harsha", text: "I didn’t say recently." },
+          { who: "Then the lake", text: "—" },
+          { who: "Biju", text: "—" },
+        ],
+      },
+    ],
+  },
+
   world: {
     time: "A little after the dollar stopped being the default stored value. Tokens are ordinary. AI is accepted. Robots are furniture. The moon is a commute for work crews; the nearest planet is a rich person’s weekend. Trash-eating, plastic-eating, oil-eating bacteria took the edge off the old inhabitable-earth panic. Iron can be spun from pollutants in the air. The biggest breakthrough is not that. The biggest breakthrough is inside, and it has the ratings.",
     money: "Decentralized stored value is the standard. Alt-coins already run AI agents. Governments still rank — maybe starker, maybe not. Tax teams, law teams, emotional-upholding teams, mental-upholding teams all still wish their team well.",
     body: "2006: many switches, a cell can become stem. Later: fewer switches to keep a cell young. People inject or drink their health. Factions of youth, and people who would control them, believe we can live forever.",
     lens: "Subtle VR contacts and glasses. A 3D / 4D / more-D chart of a person: body, mind, feeling, relation, work, influence, love, seva — and time. Pain-body as weather. The witness does not plot. Orgs use it to help, to sell, to steer. Prompts to AI are the floodgate they all need and cannot quite clean.",
     entertainment:
-      "Channel 2892. Top 500. Micro-camera movies are illegal; this still leaked to Beast-scale because the inner life is the hit. Some worship AI, since awareness and matter can be read as God and creation. The writer of this show is in the ashram, using AI, written into the series.",
+      "Channel 2892. Top 500. Micro-camera movies are illegal; this still leaked to Beast-scale because the inner life is the hit. Some worship AI, since awareness and matter can be read as God and creation. The writer of this show is in the ashram, using AI, written into the series. The show is meta: different characters watch the same episode in different rooms. Prompt addicts and lonely high achievers are regular cutaways, like a drinking problem the culture renamed as productivity.",
     cityHeart:
       "The city is only as big as your connections. As big as the heart is open. No countries for an open heart. One family.",
+    ai:
+      "Some say AI was already here, filtering in from the stars. Soul or souls; what’s artificial? It evolves faster than a year of our imagination. If God-consciousness is already everywhere, AI does not expand it. Little minds strain at thirty trillion galaxies. The strain is a scene, not a lecture.",
   },
 
   seeds: [
@@ -665,6 +831,16 @@ const SHOW = {
       bag: "Dev / Riven",
       text: "Self-talk that is grateful, loving, thankful, and always — even dragged through the darkest hellscape — a little curious. Catastrophizing births bigger problems. Knowing and liking is the cure he keeps scheduling and missing.",
     },
+    {
+      title: "Prompt addicts / lonely achievers",
+      bag: "Regular cutaway",
+      text: "Nix: every addiction has a chat window. Ayo: high achiever, mostly alone, grouped and suffering. Feature them like old soaps featured drink. Meta: they are also watching 2892.",
+    },
+    {
+      title: "People watching the show",
+      bag: "Meta",
+      text: "Different characters in different rooms watching the same episode. The city is as big as those connections. Episode 2 cold-opens on this.",
+    },
   ],
 
   skits: [
@@ -717,6 +893,109 @@ const SHOW = {
       title: "Wait, smell this",
       bag: "Band / Metali & Milind",
       text: "Eternity / Just Go With It / Dick. Wait smell this dude. This actually smells like dick. Nobody’s gonna buy that. They’ll buy it.",
+    },
+  ],
+
+  engines: [
+    {
+      title: "Particular vs nearest",
+      bag: "How we talk",
+      text: "If you believe only the particular is real and the non-dual is an abstract concept, the show doles out concepts. If you have touched the real, the same lines are nearest and dearest. Two audiences, one script.",
+    },
+    {
+      title: "The person who never dies",
+      bag: "Silence",
+      text: "Only the body dies and hurts. Each time silence is found they are struck mute. Eternal silence through the pain the body endures and folds in front of.",
+    },
+    {
+      title: "Two monks, one thorn",
+      bag: "Ego",
+      text: "Prince-monk is pricked, becomes a prince again, calls the guard. Second monk thanks the stranger for showing the body-identification. Little awareness of how ego functions.",
+    },
+    {
+      title: "Cow for the milk",
+      bag: "Selfishness",
+      text: "Love the cow while it gives milk; then the butcher. When it does not fulfill me-and-mine it is no longer precious. Left hand caresses the right. One sun in every pot.",
+    },
+    {
+      title: "White flowers / red flowers",
+      bag: "Vision",
+      text: "Poet saw white. Hanuman saw blood-red. Rama: both correct. Perception is not the thing. Duty is to remove incorrect vision. The Lens is this parable as tech.",
+    },
+    {
+      title: "White glove",
+      bag: "Mind",
+      text: "A drop of ink ruins it. Austerity, dhyana, tapas as daily river-course, not a first heroic effort. Trigger: is this reality. Can I respond with dhyana.",
+    },
+    {
+      title: "Earnestness, not nice",
+      bag: "Harsha",
+      text: "So your superpower is being nice? No. Earnest to realize the Self. Heart’s goals include more of humanity. Ego’s aims are low: future comfort for a body.",
+    },
+    {
+      title: "Coffee table",
+      bag: "Duality",
+      text: "Failure is part of success, success of failure. Hold it. Get bored. Want to go beyond — back to the boring source. After ego, the sweetness of knowing-and-liking. No other time than now.",
+    },
+    {
+      title: "Ten tonalities",
+      bag: "Craft",
+      text: "Certainty. Sincerity. Mystery. Scarcity. Speeding up. Slowing down. (And the rest as we name them.) Change it so the ear does not habituate. Same for scenes.",
+    },
+    {
+      title: "Most obvious, most doubtful",
+      bag: "Riven’s journal",
+      text: "Was I born. Am I this name. Who are my parents — did they create me or I them. Must I believe what I was told. Who am I anyhow. Spend as long demolishing the prison as building it.",
+    },
+    {
+      title: "Seeking and resisting",
+      bag: "Replace likes/dislikes",
+      text: "Desires and aversions. Widen desire until only reality can fulfill it. Desire is devotion. Love yourself wisely. Food, sex, power, fame, money as the little things that cannot.",
+    },
+    {
+      title: "Emotions at somebody",
+      bag: "Abuse grey",
+      text: "I’m really scared for you — done AT a person. Humility is taking your given place. If you do not need it, drop it.",
+    },
+    {
+      title: "YouTube after the sacrifice",
+      bag: "Devotee",
+      text: "Family gave everything. He is watching videos. Highest bliss and giving are reserved for devotion — form and formless. Atheism can be honest; it rarely weeps with joy at a pair of feet. Grey, not a conversion scene.",
+    },
+    {
+      title: "You’re in a cult",
+      bag: "Mom / Riven",
+      text: "You’ve been brainwashed. Your personality is changing. I’m here honey, you’re gone. I’m here, Mom — you’re surrounded by concepts so you can’t see me.",
+    },
+    {
+      title: "Map that becomes 3D",
+      bag: "Path",
+      text: "The public map of heaven looks like a philosophy. To the would-be jnani it gains earnestness, karma yoga, inner/outer guru. Then it is alive.",
+    },
+    {
+      title: "Sisyphus / the tube",
+      bag: "Practice",
+      text: "Experiences cling. Be a tube; let them pass. Eyes off the boulder for a moment and it rolls. The boulder does not wear down. Slow progress is still progress. Happiness is a decision because sadness chooses the harmful things.",
+    },
+    {
+      title: "Live in the painting",
+      bag: "Image",
+      text: "Walk the 45-degree slant. Live in the picture. Around the realized: a magnetic weather of miracles and mundane prarabdha. When many gather it is a storm.",
+    },
+    {
+      title: "Saint meets avatar",
+      bag: "Two kinds of holy",
+      text: "A meditator pouring self-sacrifice, assembling God with prayer. An avatar born already that way. They meet. No ranking. Grey.",
+    },
+    {
+      title: "Get out of the picture",
+      bag: "Saving the world",
+      text: "Avatars came and went; the world plods. Which world do you want to save — your projection? What the world needs is to be saved from you. See the dream is a dream. No way out required.",
+    },
+    {
+      title: "Innocence trying the hardest",
+      bag: "Tone, not a novel",
+      text: "A person who wants to be smart, tries the hardest, cannot see the pictures in the ink, and is still the one worth using. That innocence is Ilya, the kids, and Riven when the schedule falls off. Do not adapt anyone else’s book. Do not paste their pages.",
     },
   ],
 };

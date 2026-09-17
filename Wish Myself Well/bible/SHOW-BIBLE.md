@@ -15,6 +15,21 @@ Tone mix: **Game of Thrones** (faction cutaways, power, no one clean), **Friends
 - Mother told us to laugh at this ignorance. We keep forgetting.
 - **As funny as we can make it.** Alternate surreal/experiential with bunk-room skits. The laugh is the witness, not a commercial. See the Skits tab. More voice memos welcome.
 
+## Copyright / what we do not paste
+
+- No one else’s novel (including progress-report pastiches). Innocence-trying-the-hardest is a *tone*: Ilya, the kids, Riven when the calendar falls off.
+- No hymn-translation dumps. Original refrain: *Mother told us to laugh.*
+- No other artists’ lyrics. Steal the device (specific+general, opposite, crowd-mirror), write new sentences.
+- Viral-how-to videos: use the *mirror the crowd* idea, do not republish the video.
+
+## Episode 2 — What Will Happen This Week
+
+Meta cold-open: four rooms watching 2892. Father Sol’s hill and Ilya’s real tears. Sofa catch-22. The chain that wasn’t. Nix the prompt addict. Ayo the lonely high achiever. Anu makes them clap. Harsha’s joke, then mute silence.
+
+## Engines tab
+
+The rest of the manifesto, turned into scene-engines (particular vs nearest, two monks, cow-for-milk, white/red flowers, coffee table, Sisyphus tube, cult conversation, etc.).
+
 ## Riven Vale, 47 (the character Jeremy is in)
 
 Obsessed with scheduling. After turning 47: the inner headline is **crazy loser**. Mother Anu said it, then said she was kidding, then told the other swamis they should be more like him — **meaning innocent**. He filed the first sentence. The swamis heard the third. All three were true.

@@ -2,7 +2,7 @@
   const app = document.getElementById("app");
   const nav = document.querySelectorAll(".nav a");
 
-  const routes = ["watch", "people", "songs", "skits", "lens", "world", "seeds", "bible"];
+  const routes = ["watch", "people", "songs", "skits", "lens", "world", "engines", "seeds", "bible"];
 
   function route() {
     const hash = (location.hash || "#watch").slice(1).split("/")[0];
@@ -31,7 +31,8 @@
 
   const views = {
     watch() {
-      const ep = SHOW.episode1;
+      const eps = [SHOW.episode1, SHOW.episode2].filter(Boolean);
+      const ep = eps[epIndex] || eps[0];
       return `
         <section class="hero">
           <figure class="hero-still">
@@ -45,13 +46,22 @@
               <div><dt>Enlightenment</dt><dd>${esc(SHOW.definition.enlightenment)}</dd></div>
               <div><dt>Rich</dt><dd>${esc(SHOW.definition.rich)}</dd></div>
               <div><dt>Wish</dt><dd>${esc(SHOW.definition.wish)}</dd></div>
+              <div><dt>City</dt><dd>${esc(SHOW.definition.city)}</dd></div>
             </dl>
           </div>
         </section>
+        <div class="filmstrip" id="ep-pick">
+          ${eps
+            .map(
+              (e, i) =>
+                `<button type="button" data-ep="${i}" class="${i === epIndex ? "on" : ""}">${esc(e.code)} · ${esc(e.title)}</button>`
+            )
+            .join("")}
+        </div>
         <div class="ep-head">
           <div>
             <p class="ep-code">${esc(ep.code)}</p>
-            <h2 class="section-h">Episode 1 — ${esc(ep.title)}</h2>
+            <h2 class="section-h">Episode — ${esc(ep.title)}</h2>
             <p class="mini">${esc(ep.logline)}</p>
           </div>
           <p class="mini">${esc(ep.note)}</p>
@@ -163,10 +173,30 @@
             <p>${esc(w.lens)}</p>
             <p>${esc(w.entertainment)}</p>
             <p>${esc(w.cityHeart)}</p>
+            <p>${esc(w.ai || "")}</p>
             <figure class="city">
               <img src="images/wmw-city-heart.png" alt="Open-heart cartography of the city" />
             </figure>
           </div>
+        </div>
+      `;
+    },
+
+    engines() {
+      return `
+        <h2 class="section-h">Engines from the manifesto</h2>
+        <p class="lede">Teaching that wants to be a scene. If you have only touched the particular, these read as concepts. If you have touched the real, they are nearest and dearest. Original lines only — no one else’s novel, no hymn dump.</p>
+        <div class="seeds">
+          ${(SHOW.engines || [])
+            .map(
+              (s) => `
+            <article class="seed">
+              <p class="seed-bag">${esc(s.bag)}</p>
+              <h3>${esc(s.title)}</h3>
+              <p>${esc(s.text)}</p>
+            </article>`
+            )
+            .join("")}
         </div>
       `;
     },
@@ -235,11 +265,26 @@
       </article>`;
   }
 
+  let epIndex = 0;
   let panelIndex = 0;
 
+  function episodeList() {
+    return [SHOW.episode1, SHOW.episode2].filter(Boolean);
+  }
+
   function bindWatch() {
-    const ep = SHOW.episode1;
+    const ep = episodeList()[epIndex] || SHOW.episode1;
     const strip = document.getElementById("strip");
+    const pick = document.getElementById("ep-pick");
+    if (pick) {
+      pick.onclick = (e) => {
+        const b = e.target.closest("button[data-ep]");
+        if (!b) return;
+        epIndex = Number(b.dataset.ep);
+        panelIndex = 0;
+        render();
+      };
+    }
     strip.innerHTML = ep.panels
       .map((p, i) => `<button type="button" data-i="${i}">${String(p.n).padStart(2, "0")}</button>`)
       .join("");
@@ -283,14 +328,15 @@
 
   document.addEventListener("keydown", (e) => {
     if (route() !== "watch") return;
+    const ep = episodeList()[epIndex] || SHOW.episode1;
     if (e.key === "ArrowRight" || e.key === " ") {
       e.preventDefault();
-      panelIndex = (panelIndex + 1) % SHOW.episode1.panels.length;
+      panelIndex = (panelIndex + 1) % ep.panels.length;
       bindWatch();
     }
     if (e.key === "ArrowLeft") {
       e.preventDefault();
-      panelIndex = (panelIndex - 1 + SHOW.episode1.panels.length) % SHOW.episode1.panels.length;
+      panelIndex = (panelIndex - 1 + ep.panels.length) % ep.panels.length;
       bindWatch();
     }
   });
