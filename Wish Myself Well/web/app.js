@@ -156,7 +156,7 @@
     skits() {
       return `
         <h2 class="section-h">Skits — as funny as we can make it</h2>
-        <p class="lede">Alternate the surreal and the felt-experience with bunk-room bits. The laugh is not a commercial break from the witness. Mother told us to laugh. Episode 7 plays some of these. More voice memos can land here.</p>
+        <p class="lede">Alternate the surreal and the felt-experience with bunk-room bits. The laugh is not a commercial break from the witness. Mother told us to laugh. Episode 7 and 12 play some of these. More voice memos can land here.</p>
         <div class="skit-list">
           ${(SHOW.skits || [])
             .map(
@@ -330,7 +330,7 @@
   let panelIndex = 0;
 
   function episodeList() {
-    return [SHOW.episode1, SHOW.episode2, SHOW.episode3, SHOW.episode4, SHOW.episode5, SHOW.episode6, SHOW.episode7, SHOW.episode8, SHOW.episode9, SHOW.episode10, SHOW.episode11].filter(Boolean);
+    return [SHOW.episode1, SHOW.episode2, SHOW.episode3, SHOW.episode4, SHOW.episode5, SHOW.episode6, SHOW.episode7, SHOW.episode8, SHOW.episode9, SHOW.episode10, SHOW.episode11, SHOW.episode12].filter(Boolean);
   }
 
   function alsoWatchingFor(i) {

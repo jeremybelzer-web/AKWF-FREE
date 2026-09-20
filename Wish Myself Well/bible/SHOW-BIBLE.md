@@ -144,6 +144,10 @@ If you could just ask them: she guarantees they will not. Ramanandji might. Yell
 
 Lisbon, not Brooklyn. Travel most of the year. 30 days or more. Paulo the porteiro knew. Nuno asks for the reservation; the guest says no. Click-pay: IN LEGAL. No notice. Guest Monday. Loja do Cidadão, 9–5: you probably will not get representation until there is a process. What should I do. The show is not legal aid. Somewhat shady, not a heist.
 
+## Episode 12 — Very Short and Very Precious
+
+Comedy then kitchen. Placenta Diver (a recording, a closed bin). Placebo Diaper (the look down). A really normal dinner: there was order, now there’s chaos. The time people love each other is very short and very precious. In between fights. In the morning. Making up. Find a — the memo cut off. Full scripts on Skits.
+
 ## Meaning, objects, samsara
 
 - Life has no inherent meaning. It simply exists as a pervading presence.

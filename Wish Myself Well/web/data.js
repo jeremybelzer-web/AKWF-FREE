@@ -1005,6 +1005,32 @@ const SHOW = {
       note: "Refrain for the series. Original. Do not paste hymn translations.",
     },
     {
+      title: "There Was Order",
+      who: "The Well / dinner",
+      status: "live",
+      device: "Crowd-mirror on a restaurant",
+      hook: "There was order, now there’s chaos. There was order, now there’s chaos.",
+      verses: [
+        "A really normal dinner. Then politics.",
+        "The plates are still plates. The faces are not.",
+        "Very short. Very precious. In between fights. In the morning. Making up.",
+      ],
+      note: "2892.12. Do not pick a side. Film the table.",
+    },
+    {
+      title: "Very Short and Very Precious",
+      who: "The Vales / Anu",
+      status: "live",
+      device: "Specific + general",
+      hook: "The time that people love each other is very short and very precious. It’s what brings new life to this earth.",
+      verses: [
+        "In between fights.",
+        "In the morning.",
+        "Making up.",
+      ],
+      note: "The lake after the bits. Episode 12. Do not sermon the globe.",
+    },
+    {
       title: "The Worthless One",
       who: "Riven",
       status: "live",
@@ -2219,6 +2245,105 @@ const SHOW = {
     ],
   },
 
+  episode12: {
+    id: "e12",
+    code: "2892.12",
+    title: "Very Short and Very Precious",
+    logline:
+      "Placenta Diver. Placebo Diaper. A really normal dinner goes to politics. There was order, now there’s chaos. Then the short time people love each other — in between fights, in the morning, making up.",
+    note: "Comedy hour, then the kitchen. The laugh is the witness. Full scripts on Skits. Find a — cut off; wait for the next memo.",
+    panels: [
+      {
+        n: 1,
+        slug: "INT. HOSPITAL CORRIDOR — NIGHT",
+        camera: "The phone first. Then the closed bin. Do not open it. Do not editorialize. Grey fluorescent.",
+        image: "images/wmw-e12-01.png",
+        felt: "There’s a recording. Someone in the hospital is throwing out placentas. The bin is closed. The nickname is Placenta Diver. New life in a waste route. Nobody is the devil. A job, a phone, a rumor in the bunk.",
+        lines: [
+          { who: "The phone", text: "—" },
+          { who: "Jed (later, bunk)", text: "There’s a recording." },
+          { who: "Puck", text: "Of what." },
+          { who: "Jed", text: "Someone throwing them out. Placenta Diver." },
+        ],
+      },
+      {
+        n: 2,
+        slug: "INT. STUDY ROOM — PLACEBO",
+        camera: "Hold the look down. Do not cut to the pants. The face is the diaper.",
+        image: "images/wmw-e12-02.png",
+        felt: "Is that the definition of a brain fart. It is not a real diaper. The control group had real diapers. I’m sorry to tell you, yours was a placebo. You might — The person slowly looks down at their pants.",
+        lines: [
+          { who: "Subject", text: "Is that the definition of a brain fart." },
+          { who: "The study", text: "It’s not a real diaper." },
+          { who: "The study", text: "The control group had real diapers." },
+          { who: "The study", text: "I’m sorry to tell you. Yours was a placebo." },
+          { who: "The study", text: "You might —" },
+          { who: "The subject (looking down)", text: "—" },
+        ],
+      },
+      {
+        n: 3,
+        slug: "INT. RESTAURANT — A REALLY NORMAL DINNER",
+        camera: "Sitcom coverage until politics. Then one too-long close-up. Do not pick a party. The plates stay ordinary.",
+        image: "images/wmw-e12-03.png",
+        felt: "Really normal thing. Restaurant dinner. Conversation about politics. There was order, now there’s chaos. The wine does not know. The kids at home do not know. Me-and-mine at a table that was a family a minute ago.",
+        lines: [
+          { who: "Someone", text: "Pass the — wait. You voted how." },
+          { who: "Someone else", text: "There was order, now there’s chaos." },
+          { who: "The table", text: "There was order, now there’s chaos." },
+        ],
+      },
+      {
+        n: 4,
+        slug: "INT. SAME TABLE — THE REFRAIN",
+        camera: "Let them say it twice. Crowd-mirror. Nobody wins. The leftover bread is the Matrix shot.",
+        image: "images/wmw-e12-03.png",
+        felt: "They think they are talking about the country. They are talking about the hour they will not get back. There was order. Now there’s chaos. Very short. Very precious. They do not know that yet.",
+        lines: [
+          { who: "Someone", text: "There was order, now there’s chaos." },
+          { who: "Someone else", text: "There was order, now there’s chaos." },
+          { who: "A server", text: "Anything else." },
+        ],
+      },
+      {
+        n: 5,
+        slug: "INT. VALE KITCHEN — MORNING",
+        camera: "Foreheads. Coffee. A child in the doorway. Do not score it sad. The laugh is small.",
+        image: "images/wmw-e12-04.png",
+        felt: "The time that people love each other is very short and very precious. It’s what brings new life to this earth. In between fights. In the morning. Making up. The placenta was this. The dinner forgot this.",
+        lines: [
+          { who: "Pike", text: "In the morning." },
+          { who: "Sera", text: "Making up." },
+          { who: "A child", text: "—" },
+        ],
+      },
+      {
+        n: 6,
+        slug: "INT. THE WELL / AFTER A FIGHT",
+        camera: "The space between two people. Not the fight. The making up. Hold it.",
+        image: "images/wmw-panel-07.png",
+        felt: "In between fights is a country with no army. It does not last. That is why it is precious. New life does not come from the restaurant speech. It comes from this.",
+        lines: [
+          { who: "Someone", text: "In between fights." },
+          { who: "Someone", text: "I’m sorry." },
+          { who: "Someone", text: "Me too." },
+        ],
+      },
+      {
+        n: 7,
+        slug: "EXT. COURTYARD / THEN THE KITCHEN AGAIN",
+        camera: "Anu not impressive. Then the steam. Then mute. The laugh was the witness. Then this.",
+        image: "images/wmw-anu.png",
+        felt: "Mother told us to laugh. We did the bits. Placenta Diver. Placebo. Chaos. Then the short time. Find a — the memo cut off. The hour did not. Clap anyway.",
+        lines: [
+          { who: "Anu", text: "Very short. Very precious. That’s the new life." },
+          { who: "Harsha", text: "Mother told us to laugh. Then make up." },
+          { who: "Channel 2892 (end card)", text: "WISH MYSELF WELL" },
+        ],
+      },
+    ],
+  },
+
   world: {
     time: "A little after the dollar stopped being the default stored value. Tokens are ordinary. AI is accepted. Robots are furniture. The moon is a commute for work crews; the nearest planet is a rich person’s weekend. Trash-eating, plastic-eating, oil-eating bacteria took the edge off the old inhabitable-earth panic. Iron can be spun from pollutants in the air. The biggest breakthrough is not that. The biggest breakthrough is inside, and it has the ratings.",
     money: "Decentralized stored value is the standard. Alt-coins already run AI agents. Governments still rank — maybe starker, maybe not. People still think more money means even sickness will avoid them. Marketing is the weather that sells that hope. The body does not read the ad.",
@@ -2356,6 +2481,11 @@ const SHOW = {
       title: "Lisbon listing",
       bag: "Lark / grey · 2892.11",
       text: "Lisbon, not Brooklyn. Travel most of the year. Sublet 30 days plus. Paulo the porteiro knew five years. Nuno at the door. Guest refuses the reservation. Click-pay: IN LEGAL. No notice. Guest Monday. Loja do Cidadão 9–5: you probably will not get representation until there is a process. Alojamento Local is a different window. What should I do. Not a heist. A doorway. Wizard of Unhappiness / Almost. The show is not legal aid.",
+    },
+    {
+      title: "Placenta Diver / Placebo / Order",
+      bag: "Skits · 2892.12",
+      text: "Recording in a hospital corridor, bin closed. Placebo diaper: control group had the real ones; look down. Really normal restaurant: there was order, now there’s chaos. Then the short precious time people love each other. Find a — cut off.",
     },
     {
       title: "Lyric workshop",
@@ -2522,6 +2652,63 @@ const SHOW = {
         { who: "Milind", text: "They’ll buy it." },
       ],
     },
+    {
+      title: "Placenta Diver",
+      bag: "Hospital / bunk",
+      text: "There’s a recording. Someone in the hospital is throwing out placentas. Closed bin. Do not open it. Grey. The nickname is the joke and the wound.",
+      lines: [
+        { who: "Jed", text: "There’s a recording." },
+        { who: "Puck", text: "Of what." },
+        { who: "Jed", text: "Someone throwing them out." },
+        { who: "Puck", text: "Throwing what out." },
+        { who: "Jed", text: "You know. After. Placenta Diver." },
+        { who: "Puck", text: "—" },
+      ],
+    },
+    {
+      title: "Placebo Diaper",
+      bag: "Study",
+      text: "Is that a brain fart. Control group had real ones. Yours was a placebo. You might — Hold the look down. Do not show the pants.",
+      lines: [
+        { who: "Subject", text: "Is that the definition of a brain fart." },
+        { who: "The study", text: "It’s not a real diaper." },
+        { who: "The study", text: "The control group had real diapers." },
+        { who: "The study", text: "I’m sorry to tell you, that yours was a placebo." },
+        { who: "The study", text: "You might —" },
+        { who: "The subject (looking down)", text: "—" },
+      ],
+    },
+    {
+      title: "There was order",
+      bag: "Restaurant",
+      text: "A really normal dinner. Then politics. There was order, now there’s chaos. Twice. Do not pick a side.",
+      lines: [
+        { who: "Someone", text: "Pass the — wait. You voted how." },
+        { who: "Someone else", text: "There was order, now there’s chaos." },
+        { who: "The table", text: "There was order, now there’s chaos." },
+        { who: "A server", text: "Anything else." },
+      ],
+    },
+    {
+      title: "Very short and very precious",
+      bag: "Kitchen / felt",
+      text: "The time that people love each other is very short and very precious. It’s what brings new life to this earth. In between fights. In the morning. Making up. The lake after the bits.",
+      lines: [
+        { who: "Someone", text: "In between fights." },
+        { who: "Someone", text: "In the morning." },
+        { who: "Someone", text: "Making up." },
+        { who: "Anu (later)", text: "That’s the new life." },
+      ],
+    },
+    {
+      title: "Find a",
+      bag: "Cut off",
+      text: "Find a — the memo stopped. Do not invent the rest. Wait for the next voice.",
+      lines: [
+        { who: "The memo", text: "Find a" },
+        { who: "The memo", text: "—" },
+      ],
+    },
   ],
 
   engines: [
@@ -2674,6 +2861,21 @@ const SHOW = {
       title: "Come back when there is a case",
       bag: "Lark",
       text: "Do not paste another city’s helpline. Film a senha, 9 to 5, a kind clerk who cannot go to court for a feeling. IN LEGAL is not a process. Guest Monday is not a process. Somewhat shady is not a heist. What should I do is the plot. The show is not legal aid.",
+    },
+    {
+      title: "Closed bin",
+      bag: "Placenta Diver",
+      text: "There’s a recording. Do not open the bin. Do not editorialize. A hospital job. A nickname. New life in a waste route. Grey.",
+    },
+    {
+      title: "The look down",
+      bag: "Placebo",
+      text: "Control group had the real thing. Yours was a placebo. You might — Hold the face. The pants are off camera.",
+    },
+    {
+      title: "Very short",
+      bag: "Kitchen",
+      text: "The time people love each other is very short and very precious. New life. In between fights. In the morning. Making up. Do not sermon the globe. Film the coffee.",
     },
   ],
 };
