@@ -1,0 +1,23 @@
+{
+  "task": "E1 GO (8)",
+  "packs": [
+    {
+      "id": "organ-drawbar",
+      "name": "Drawbar Organ",
+      "waves": 12,
+      "path": "sound-packs/organ-drawbar/"
+    },
+    {
+      "id": "organ-pipe",
+      "name": "Pipe Organ",
+      "waves": 12,
+      "path": "sound-packs/organ-pipe/"
+    },
+    {
+      "id": "organ-combo",
+      "name": "Combo Organ",
+      "waves": 12,
+      "path": "sound-packs/organ-combo/"
+    }
+  ]
+}

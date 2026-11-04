@@ -198,6 +198,16 @@ View AKWF waveforms as PNG plots for visual reference. Each image offers a strai
 There is an [open source app](https://github.com/tashian/waves) for previewing the waveforms.
 See [AKWF Player](https://waves.tashian.com).
 
+### Sound packs (E1 GO (8))
+
+Three organ packs in the same 600-sample cycle format, under [`sound-packs/`](sound-packs/):
+
+- **Drawbar Organ** — Hammond-style 9-drawbar registrations
+- **Pipe Organ** — principal, flute, nazard, mixture, pedal bourdon
+- **Combo Organ** — transistor / Farfisa / Vox voicings
+
+Each pack ships looped SFZ + JSON. Rebuild with `python3 scripts/build_organ_packs.py`.
+
 ### Sound-generators
 
 #### [QU-Bit Chord](https://www.qubitelectronix.com/)

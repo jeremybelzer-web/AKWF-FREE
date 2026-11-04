@@ -1,0 +1,100 @@
+{
+  "id": "organ-combo",
+  "name": "Combo Organ",
+  "blurb": "Transistor combo voicings (Farfisa / Vox / spinet families).",
+  "format": "akwf-cycle",
+  "cycleSamples": 600,
+  "sampleRate": 44100,
+  "bitDepth": 16,
+  "channels": 1,
+  "pitchKeycenter": 38,
+  "cycleHz": 73.5,
+  "license": "CC0-1.0",
+  "task": "E1 GO (8)",
+  "waves": [
+    {
+      "id": "combo_8",
+      "name": "Transistor 8' (band-limited square)",
+      "file": "combo_8.wav",
+      "akwfSource": "AKWF_eorgan_0016.wav",
+      "akwfFile": "combo_8__akwf_AKWF_eorgan_0016.wav"
+    },
+    {
+      "id": "combo_4",
+      "name": "Transistor 4'",
+      "file": "combo_4.wav",
+      "akwfSource": "AKWF_eorgan_0049.wav",
+      "akwfFile": "combo_4__akwf_AKWF_eorgan_0049.wav"
+    },
+    {
+      "id": "combo_16_8",
+      "name": "16'+8' combo",
+      "file": "combo_16_8.wav",
+      "akwfSource": "AKWF_eorgan_0067.wav",
+      "akwfFile": "combo_16_8__akwf_AKWF_eorgan_0067.wav"
+    },
+    {
+      "id": "farfisa_bright",
+      "name": "Farfisa-like 16+8+4+2",
+      "file": "farfisa_bright.wav",
+      "akwfSource": "AKWF_eorgan_0141.wav",
+      "akwfFile": "farfisa_bright__akwf_AKWF_eorgan_0141.wav"
+    },
+    {
+      "id": "vox_nasal",
+      "name": "Vox-like nasal",
+      "file": "vox_nasal.wav",
+      "akwfSource": "AKWF_eorgan_0041.wav",
+      "akwfFile": "vox_nasal__akwf_AKWF_eorgan_0041.wav"
+    },
+    {
+      "id": "pulse_25",
+      "name": "25% pulse",
+      "file": "pulse_25.wav",
+      "akwfSource": "AKWF_eorgan_0148.wav",
+      "akwfFile": "pulse_25__akwf_AKWF_eorgan_0148.wav"
+    },
+    {
+      "id": "pulse_12",
+      "name": "12% thin pulse",
+      "file": "pulse_12.wav",
+      "akwfSource": "AKWF_eorgan_0135.wav",
+      "akwfFile": "pulse_12__akwf_AKWF_eorgan_0135.wav"
+    },
+    {
+      "id": "saw_combo",
+      "name": "Soft saw combo",
+      "file": "saw_combo.wav",
+      "akwfSource": "AKWF_eorgan_0048.wav",
+      "akwfFile": "saw_combo__akwf_AKWF_eorgan_0048.wav"
+    },
+    {
+      "id": "combo_chorus",
+      "name": "8'+4'+2' transistor chorus",
+      "file": "combo_chorus.wav",
+      "akwfSource": "AKWF_eorgan_0030.wav",
+      "akwfFile": "combo_chorus__akwf_AKWF_eorgan_0030.wav"
+    },
+    {
+      "id": "combo_reed",
+      "name": "Reedy combo",
+      "file": "combo_reed.wav",
+      "akwfSource": "AKWF_eorgan_0040.wav",
+      "akwfFile": "combo_reed__akwf_AKWF_eorgan_0040.wav"
+    },
+    {
+      "id": "spinet",
+      "name": "Spinet (thin 8'+4')",
+      "file": "spinet.wav",
+      "akwfSource": "AKWF_eorgan_0126.wav",
+      "akwfFile": "spinet__akwf_AKWF_eorgan_0126.wav"
+    },
+    {
+      "id": "combo_full",
+      "name": "Full combo",
+      "file": "combo_full.wav",
+      "akwfSource": "AKWF_eorgan_0075.wav",
+      "akwfFile": "combo_full__akwf_AKWF_eorgan_0075.wav"
+    }
+  ]
+}
