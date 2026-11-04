@@ -1,0 +1,100 @@
+{
+  "id": "organ-pipe",
+  "name": "Pipe Organ",
+  "blurb": "Flue ranks: principal, flute, nazard, mixture, pedal bourdon.",
+  "format": "akwf-cycle",
+  "cycleSamples": 600,
+  "sampleRate": 44100,
+  "bitDepth": 16,
+  "channels": 1,
+  "pitchKeycenter": 38,
+  "cycleHz": 73.5,
+  "license": "CC0-1.0",
+  "task": "E1 GO (8)",
+  "waves": [
+    {
+      "id": "principal_8",
+      "name": "Open diapason 8'",
+      "file": "principal_8.wav",
+      "akwfSource": "AKWF_eorgan_0109.wav",
+      "akwfFile": "principal_8__akwf_AKWF_eorgan_0109.wav"
+    },
+    {
+      "id": "octave_4",
+      "name": "Principal 4'",
+      "file": "octave_4.wav",
+      "akwfSource": "AKWF_eorgan_0038.wav",
+      "akwfFile": "octave_4__akwf_AKWF_eorgan_0038.wav"
+    },
+    {
+      "id": "super_octave_2",
+      "name": "Fifteenth 2'",
+      "file": "super_octave_2.wav",
+      "akwfSource": "AKWF_eorgan_0046.wav",
+      "akwfFile": "super_octave_2__akwf_AKWF_eorgan_0046.wav"
+    },
+    {
+      "id": "flute_8",
+      "name": "Stopped flute 8' (even harmonics)",
+      "file": "flute_8.wav",
+      "akwfSource": "AKWF_eorgan_0067.wav",
+      "akwfFile": "flute_8__akwf_AKWF_eorgan_0067.wav"
+    },
+    {
+      "id": "flute_4",
+      "name": "Flute 4'",
+      "file": "flute_4.wav",
+      "akwfSource": "AKWF_eorgan_0047.wav",
+      "akwfFile": "flute_4__akwf_AKWF_eorgan_0047.wav"
+    },
+    {
+      "id": "nazard_223",
+      "name": "Nazard 2\u2154'",
+      "file": "nazard_223.wav",
+      "akwfSource": "AKWF_eorgan_0123.wav",
+      "akwfFile": "nazard_223__akwf_AKWF_eorgan_0123.wav"
+    },
+    {
+      "id": "mixture",
+      "name": "Bright mixture",
+      "file": "mixture.wav",
+      "akwfSource": "AKWF_eorgan_0039.wav",
+      "akwfFile": "mixture__akwf_AKWF_eorgan_0039.wav"
+    },
+    {
+      "id": "bourdon_16",
+      "name": "Pedal bourdon 16'+8'",
+      "file": "bourdon_16.wav",
+      "akwfSource": "AKWF_eorgan_0093.wav",
+      "akwfFile": "bourdon_16__akwf_AKWF_eorgan_0093.wav"
+    },
+    {
+      "id": "diapason_chorus",
+      "name": "8'+4'+2' principal chorus",
+      "file": "diapason_chorus.wav",
+      "akwfSource": "AKWF_eorgan_0148.wav",
+      "akwfFile": "diapason_chorus__akwf_AKWF_eorgan_0148.wav"
+    },
+    {
+      "id": "flute_chorus",
+      "name": "8'+4' flute chorus",
+      "file": "flute_chorus.wav",
+      "akwfSource": "AKWF_eorgan_0003.wav",
+      "akwfFile": "flute_chorus__akwf_AKWF_eorgan_0003.wav"
+    },
+    {
+      "id": "gedackt",
+      "name": "Soft gedackt",
+      "file": "gedackt.wav",
+      "akwfSource": "AKWF_eorgan_0016.wav",
+      "akwfFile": "gedackt__akwf_AKWF_eorgan_0016.wav"
+    },
+    {
+      "id": "full_swell",
+      "name": "Full swell (flue + mixture)",
+      "file": "full_swell.wav",
+      "akwfSource": "AKWF_eorgan_0141.wav",
+      "akwfFile": "full_swell__akwf_AKWF_eorgan_0141.wav"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "id": "organ-drawbar",
+  "name": "Drawbar Organ",
+  "blurb": "Hammond-style 9-drawbar registrations as AKWF single-cycle waves.",
+  "format": "akwf-cycle",
+  "cycleSamples": 600,
+  "sampleRate": 44100,
+  "bitDepth": 16,
+  "channels": 1,
+  "pitchKeycenter": 38,
+  "cycleHz": 73.5,
+  "license": "CC0-1.0",
+  "task": "E1 GO (8)",
+  "waves": [
+    {
+      "id": "foundation_16",
+      "name": "16' foundation (800000000)",
+      "file": "foundation_16.wav",
+      "akwfSource": "AKWF_eorgan_0014.wav",
+      "akwfFile": "foundation_16__akwf_AKWF_eorgan_0014.wav"
+    },
+    {
+      "id": "jimmy_smith",
+      "name": "Jimmy Smith jazz (888000000)",
+      "file": "jimmy_smith.wav",
+      "akwfSource": "AKWF_eorgan_0056.wav",
+      "akwfFile": "jimmy_smith__akwf_AKWF_eorgan_0056.wav"
+    },
+    {
+      "id": "classic_rock",
+      "name": "Classic rock (888800000)",
+      "file": "classic_rock.wav",
+      "akwfSource": "AKWF_eorgan_0057.wav",
+      "akwfFile": "classic_rock__akwf_AKWF_eorgan_0057.wav"
+    },
+    {
+      "id": "blues",
+      "name": "Blues (888880000)",
+      "file": "blues.wav",
+      "akwfSource": "AKWF_eorgan_0058.wav",
+      "akwfFile": "blues__akwf_AKWF_eorgan_0058.wav"
+    },
+    {
+      "id": "full_upper",
+      "name": "Full upper (no high mixture) (888888000)",
+      "file": "full_upper.wav",
+      "akwfSource": "AKWF_eorgan_0059.wav",
+      "akwfFile": "full_upper__akwf_AKWF_eorgan_0059.wav"
+    },
+    {
+      "id": "jazz_sizzle",
+      "name": "Jazz with 1' sizzle (888000008)",
+      "file": "jazz_sizzle.wav",
+      "akwfSource": "AKWF_eorgan_0072.wav",
+      "akwfFile": "jazz_sizzle__akwf_AKWF_eorgan_0072.wav"
+    },
+    {
+      "id": "amazing_grace",
+      "name": "Amazing Grace (808000000)",
+      "file": "amazing_grace.wav",
+      "akwfSource": "AKWF_eorgan_0152.wav",
+      "akwfFile": "amazing_grace__akwf_AKWF_eorgan_0152.wav"
+    },
+    {
+      "id": "church",
+      "name": "Soft church (840000000)",
+      "file": "church.wav",
+      "akwfSource": "AKWF_eorgan_0067.wav",
+      "akwfFile": "church__akwf_AKWF_eorgan_0067.wav"
+    },
+    {
+      "id": "chorus_flute",
+      "name": "8'+4' flute chorus (008800000)",
+      "file": "chorus_flute.wav",
+      "akwfSource": "AKWF_eorgan_0089.wav",
+      "akwfFile": "chorus_flute__akwf_AKWF_eorgan_0089.wav"
+    },
+    {
+      "id": "whistle",
+      "name": "2' whistle (000080000)",
+      "file": "whistle.wav",
+      "akwfSource": "AKWF_eorgan_0037.wav",
+      "akwfFile": "whistle__akwf_AKWF_eorgan_0037.wav"
+    },
+    {
+      "id": "full_organ",
+      "name": "Full nine drawbars (888888888)",
+      "file": "full_organ.wav",
+      "akwfSource": "AKWF_eorgan_0078.wav",
+      "akwfFile": "full_organ__akwf_AKWF_eorgan_0078.wav"
+    },
+    {
+      "id": "two_drawbars",
+      "name": "16'+5\u2153' growl (880000000)",
+      "file": "two_drawbars.wav",
+      "akwfSource": "AKWF_eorgan_0055.wav",
+      "akwfFile": "two_drawbars__akwf_AKWF_eorgan_0055.wav"
+    }
+  ]
+}

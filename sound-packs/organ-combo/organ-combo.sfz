@@ -1,0 +1,74 @@
+// AKWF organ sound pack — looped single-cycle (CC0)
+<control>
+default_path=waves/
+
+<global>
+loop_mode=loop_continuous
+loop_start=0
+loop_end=599
+pitch_keycenter=38
+sw_lokey=12
+sw_hikey=23
+sw_default=12
+lokey=24
+hikey=127
+
+<region>
+sample=combo_8.wav
+sw_last=12
+sw_label=Transistor 8' (band-limited square)
+
+<region>
+sample=combo_4.wav
+sw_last=13
+sw_label=Transistor 4'
+
+<region>
+sample=combo_16_8.wav
+sw_last=14
+sw_label=16'+8' combo
+
+<region>
+sample=farfisa_bright.wav
+sw_last=15
+sw_label=Farfisa-like 16+8+4+2
+
+<region>
+sample=vox_nasal.wav
+sw_last=16
+sw_label=Vox-like nasal
+
+<region>
+sample=pulse_25.wav
+sw_last=17
+sw_label=25% pulse
+
+<region>
+sample=pulse_12.wav
+sw_last=18
+sw_label=12% thin pulse
+
+<region>
+sample=saw_combo.wav
+sw_last=19
+sw_label=Soft saw combo
+
+<region>
+sample=combo_chorus.wav
+sw_last=20
+sw_label=8'+4'+2' transistor chorus
+
+<region>
+sample=combo_reed.wav
+sw_last=21
+sw_label=Reedy combo
+
+<region>
+sample=spinet.wav
+sw_last=22
+sw_label=Spinet (thin 8'+4')
+
+<region>
+sample=combo_full.wav
+sw_last=23
+sw_label=Full combo

@@ -1,0 +1,74 @@
+// AKWF organ sound pack — looped single-cycle (CC0)
+<control>
+default_path=waves/
+
+<global>
+loop_mode=loop_continuous
+loop_start=0
+loop_end=599
+pitch_keycenter=38
+sw_lokey=12
+sw_hikey=23
+sw_default=12
+lokey=24
+hikey=127
+
+<region>
+sample=foundation_16.wav
+sw_last=12
+sw_label=16' foundation (800000000)
+
+<region>
+sample=jimmy_smith.wav
+sw_last=13
+sw_label=Jimmy Smith jazz (888000000)
+
+<region>
+sample=classic_rock.wav
+sw_last=14
+sw_label=Classic rock (888800000)
+
+<region>
+sample=blues.wav
+sw_last=15
+sw_label=Blues (888880000)
+
+<region>
+sample=full_upper.wav
+sw_last=16
+sw_label=Full upper (no high mixture) (888888000)
+
+<region>
+sample=jazz_sizzle.wav
+sw_last=17
+sw_label=Jazz with 1' sizzle (888000008)
+
+<region>
+sample=amazing_grace.wav
+sw_last=18
+sw_label=Amazing Grace (808000000)
+
+<region>
+sample=church.wav
+sw_last=19
+sw_label=Soft church (840000000)
+
+<region>
+sample=chorus_flute.wav
+sw_last=20
+sw_label=8'+4' flute chorus (008800000)
+
+<region>
+sample=whistle.wav
+sw_last=21
+sw_label=2' whistle (000080000)
+
+<region>
+sample=full_organ.wav
+sw_last=22
+sw_label=Full nine drawbars (888888888)
+
+<region>
+sample=two_drawbars.wav
+sw_last=23
+sw_label=16'+5⅓' growl (880000000)

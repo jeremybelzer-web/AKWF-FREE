@@ -1,0 +1,74 @@
+// AKWF organ sound pack — looped single-cycle (CC0)
+<control>
+default_path=waves/
+
+<global>
+loop_mode=loop_continuous
+loop_start=0
+loop_end=599
+pitch_keycenter=38
+sw_lokey=12
+sw_hikey=23
+sw_default=12
+lokey=24
+hikey=127
+
+<region>
+sample=principal_8.wav
+sw_last=12
+sw_label=Open diapason 8'
+
+<region>
+sample=octave_4.wav
+sw_last=13
+sw_label=Principal 4'
+
+<region>
+sample=super_octave_2.wav
+sw_last=14
+sw_label=Fifteenth 2'
+
+<region>
+sample=flute_8.wav
+sw_last=15
+sw_label=Stopped flute 8' (even harmonics)
+
+<region>
+sample=flute_4.wav
+sw_last=16
+sw_label=Flute 4'
+
+<region>
+sample=nazard_223.wav
+sw_last=17
+sw_label=Nazard 2⅔'
+
+<region>
+sample=mixture.wav
+sw_last=18
+sw_label=Bright mixture
+
+<region>
+sample=bourdon_16.wav
+sw_last=19
+sw_label=Pedal bourdon 16'+8'
+
+<region>
+sample=diapason_chorus.wav
+sw_last=20
+sw_label=8'+4'+2' principal chorus
+
+<region>
+sample=flute_chorus.wav
+sw_last=21
+sw_label=8'+4' flute chorus
+
+<region>
+sample=gedackt.wav
+sw_last=22
+sw_label=Soft gedackt
+
+<region>
+sample=full_swell.wav
+sw_last=23
+sw_label=Full swell (flue + mixture)
